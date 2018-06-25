@@ -1,0 +1,101 @@
+body
+{
+  margin: 0;
+}
+
+.container-fluid{
+	padding-right:0px !important;
+	padding-left: 0px !important;
+}
+
+.video-container 
+{
+  top: 0%;
+  left: 0%;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+video.fillWidth {
+  width: 100%;
+}
+	
+.fw-category-image {
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.fw-category-image:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.fw-category-image:hover:before {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.fw-category-inner {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+
+
+.fw-category-text {
+    line-height: 1.5;
+}
+
+.wpz-btn-center {
+    text-align: center;
+	margin: 25px 0 0;
+}
+
+.wpz-btn {
+    white-space: nowrap;
+    line-height: 1.6;
+    user-select: none;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background: none;
+    text-decoration: none !important;
+    white-space: nowrap;
+    outline: none;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+    border: 1px solid #444444;
+    color: #444444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wpz-btn-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.wpz-btn-white:hover, .wpz-btn-white:focus {
+    background: #fff;
+    border-color: #fff;
+    color: #121212;
+}
