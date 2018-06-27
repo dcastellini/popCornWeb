@@ -12,7 +12,7 @@ body
 {
   top: 0%;
   left: 0%;
-  height: 400px;
+  height: 600px;
   width: 100%;
   overflow: hidden;
 }
@@ -99,3 +99,12 @@ video.fillWidth {
     border-color: #fff;
     color: #121212;
 }
+
+.bg-light{
+	background-color:transparent !important;
+}
+
+.font-white{
+	color:white !important;
+}
+	
