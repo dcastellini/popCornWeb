@@ -8,9 +8,44 @@ body
 	padding-left: 0px !important;
 }
 
-.btn-audiovisual{
-		color:white !important;
-		background-color:green !important;
-		border-color: transparent !important;
-	
+.transparente{
+	background-color:transparent !important;
+}
+
+.transparente a {
+ color: white !important;	
+ font-weight:bold !important;
+
+}
+
+.carrousel-logo {
+	width: 252px;
+}
+
+.blue-section {
+	background-color:#018FD7;
+	color:white;
+		
+}
+
+.blue-title{
+	font-size:22pt;
+	font-weight:bold;
+}
+
+.blue-text{
+	font-size:13pt;
+	font-weight:bold;
+}
+
+.blue-box{
+	border:1px solid white;
+	font-size:22pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+.slogan {
+	border:1px solid white;
+	width:auto;
 }
