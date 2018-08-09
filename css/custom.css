@@ -22,6 +22,13 @@ body
   font-family:HelveticaRounded !important;
 }
 
+.center-header{
+	margin-left:auto !important; 
+	margin-right:auto !important;
+	
+	
+}
+
 .container-fluid{
 	padding-right:0px !important;
 	padding-left: 0px !important;
@@ -37,9 +44,16 @@ body
 
 }
 
-.carrousel-logo {
-	width: 252px;
+.img-logo {
+	width:90px !important;
+	height:50px;
 }
+
+
+.black-drop {
+	background-color:#707070;
+}
+
 
 .blue-section {
 	background-color:#018FD7;
@@ -55,6 +69,7 @@ body
 .blue-text{
 	font-size:13pt;
 	font-weight:bold;
+	text-align:center !important;
 }
 
 .blue-box{
@@ -63,10 +78,14 @@ body
 	text-align:center;
 }
 
-.slogan {
+#slogan {
 	border:1px solid white;
-	width:auto;
+	width:auto !important;
+	padding:auto !important;
+	margin:auto !important;
+	font-size:50pt !important;
 }
+
 
 .contact-me{
 	background-color:#3EB18A !important;
@@ -93,8 +112,9 @@ body
 }
 
 .minions-cover{
-	background-color:yellow;
+	background-image: url("../img/minions.jpg");
 	height:666px;
+	background-size: cover;
 }
 
 .minions-box{
@@ -102,7 +122,6 @@ body
 	font-size:22pt;
 	border:3px solid #018EDE;
 	padding:40px;
-	background-color:#F9F9FB;	
 }
 
 .minions-prebox {
@@ -241,7 +260,7 @@ body
     background: rgba(11, 180, 170, 0.05);
 }
 
-/* Section with Image as Background */
+
 .what-we-do-btn-2 {
     color: #fff;
     border-color: #fff;
@@ -339,13 +358,13 @@ body
 }
 
 .footer-custom {
-	background-color:#018FD7;
 	height:560px;
 	margin-left:auto !important;
 	margin-right:auto !important;
 	text-align:center;
 	color: #fff;
 	font-size:16pt;
+
 }
 
 .foot-col {
@@ -358,4 +377,24 @@ body
 
 .footer-row {
 	margin-top:14%;
+}
+
+.navscroll {
+    transition:background-color 500ms, color 500ms;
+}
+
+.azul {
+    background-color:blue !important;
+    color:white;
+}
+
+.right {
+	text-align:right !important;
+}
+
+.map-cover {
+	background-image: url("../img/map.png");
+	background-size:  cover;
+	background-repeat: no-repeat;
+	
 }
