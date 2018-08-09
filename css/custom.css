@@ -1,6 +1,25 @@
+@font-face {
+	font-family:"HelveticaNeuel";
+	src: url("../fonts/HelveticaNeueL.otf");
+	src: local("0"),
+		 url("../fonts/HelveticaNeueL.ttf"),
+		 url("../fonts/HelveticaNeueL.eot"),
+		 url("../fonts/HelveticaNeueL.woff");
+}
+
+@font-face {
+	font-family:"HelveticaRounded";
+	src: url("../fonts/HelveticaRounded.otf");
+	src: local("0"),
+		 url("../fonts/HelveticaRounded.ttf"),
+		 url("../fonts/HelveticaRounded.eot"),
+		 url("../fonts/HelveticaRounded.woff");
+}
+
 body
 {
   margin: 0;
+  font-family:HelveticaRounded !important;
 }
 
 .container-fluid{
