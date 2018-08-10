@@ -1,0 +1,20 @@
+.form-pop {
+	border-radius: 0px !important;
+	background-color:#D4D4D4 !important;
+	
+}
+
+.label-pop {
+	color:#ffff;
+}
+
+.red-asterisk {
+	color:#9F4A51;
+}
+
+.form-title {
+	border:2px solid #2E82AA;
+	padding:10px;
+	text-align:center !important;
+	color:#ffff;
+}
