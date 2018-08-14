@@ -177,7 +177,38 @@ function envioEmail(){
 	}
 	else
 	{
-	  null;//Envio elements	
-	}
+		var presup = $( "#presupuesto option:selected" ).text();
+		var realiz = $( "#realizar option:selected" ).text();
+		var dirigi = $( "#dirigido option:selected" ).text();
+		
+		var data = {'nombre':nombre, 
+		            'apellido':apellido,
+					'empresa':empresa,
+					'web':web,
+					'telefono':telefono,
+					'email':email,
+					'presupuesto':presup,
+					'realiza':realiz,
+					'dirige':dirigi,
+					'comentarios':comentarios};
 
+		$.ajax({
+				url: 'EnvioEmail',
+                type: "POST",
+                data: data,
+                dataType: "html",
+                cache: false,
+                success: function (response){
+                    if(response == 'Send_ok'){
+                        $('#ErrorModalTexto').html('¡Tu mensaje fue enviado! Te responderemos a la brevedad.');
+						$('#ErrorModal').modal('show');	
+                    }
+                    else{
+                        $('#ErrorModalTexto').html(response);
+						$('#ErrorModal').modal('show');	
+                    }
+                }
+            });
+        }
+	}
 }
