@@ -18,3 +18,9 @@
 	text-align:center !important;
 	color:#ffff;
 }
+
+body
+{
+  	background-image: url("../img/phone.jpg");
+	background-size: cover;
+}
