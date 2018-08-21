@@ -313,6 +313,10 @@ body
 .contenidos {
 	height:450px;
 	background-color:#EAF9FF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../img/fondo-smile.jpg");
 }
 
 .content-block {
@@ -332,10 +336,6 @@ body
 .countered {
 	font-size:25pt;
 	font-weight:bold;
-}
-
-.contenidos-row {
-	padding-top:15%;
 }
 
 .fw-divider-space {

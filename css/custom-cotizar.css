@@ -24,3 +24,26 @@ body
   	background-image: url("../img/phone.jpg");
 	background-size: cover;
 }
+
+.contact-social {
+	padding-right:20px;
+	
+}
+
+.btn-contact {
+	color:white !important;
+	border-width:0px !important;
+	border-radius:0px !important;
+	background-color:#018FD7;
+	
+}
+
+.btn-contact:hover,.btn-contact:focus,.btn-contact:active {
+	text-decoration:none !important;
+    background-color:#057ab5 !important;
+}
+
+.font-white {
+	color:white;
+	text-align:center;
+}
