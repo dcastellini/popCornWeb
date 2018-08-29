@@ -689,3 +689,16 @@ body
 	color:white !important;
 	border: 1px solid white;
 }
+
+.footer-lamp
+{
+    background-image: url("../img/footer-lamp.jpg");
+    background-size: cover;
+    color:#ffff;
+}
+
+.title-cliente
+{
+    border:2px solid #E9C515;
+    padding:15px;
+}
