@@ -702,3 +702,44 @@ body
     border:2px solid #E9C515;
     padding:15px;
 }
+
+.back-stones
+{
+	background-color:#C1C0C5;
+}
+
+.stones-strategy
+{
+	color:#ffff;
+}
+
+.stones-green
+{
+	background-color:#3DAD87;
+	
+}
+
+.comunicacion-360
+{
+	border: 3px solid #525252;
+	color:#525252;
+	text-align:center;
+}
+
+.candy-back
+{
+	background-image: url("../img/Fondos/candy-back.jpg");
+    background-size: cover;
+}
+
+.candy-box
+{
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	height:auto;
+	width:auto;
+	color:#9CC18D;
+	background-color:#ffff;
+	border:3px solid #9CC18D;
+}
