@@ -16,6 +16,40 @@
 		 url("../fonts/HelveticaRounded.woff");
 }
 
+@font-face {
+    font-family:"HelveticaLight";
+    src: url("../fonts/HelveticaLTStd-Light.otf");
+    src: local("0"),
+         url("../fonts/HelveticaLTStd-Light.ttf"),
+         url("../fonts/HelveticaLTStd-Light.eot"),
+         url("../fonts/HelveticaLTStd-Light.woff");
+}
+
+@font-face {
+    font-family:"HelveticaBold";
+    src: url("../fonts/HelveticaLTStd-Bold.otf");
+    src: local("0"),
+         url("../fonts/HelveticaLTStd-Bold.ttf"),
+         url("../fonts/HelveticaLTStd-Bold.eot"),
+         url("../fonts/HelveticaLTStd-Bold.woff");
+}
+
+@font-face {
+    font-family:"Helvetica";
+    src: url("../fonts/HelveticaLTStd-Roman.otf");
+    src: local("0"),
+         url("../fonts/HelveticaLTStd-Roman.ttf"),
+         url("../fonts/HelveticaLTStd-Roman.eot"),
+         url("../fonts/HelveticaLTStd-Roman.woff");
+}
+
+
+
+html{
+    margin:0 !important;
+    padding:0 !important;
+}
+
 body
 {
   margin:0 !important;
@@ -46,8 +80,8 @@ body
 }
 
 .img-logo {
-	width:90px !important;
-	height:50px;
+	width:201px !important;
+	height:105px;
 }
 
 
@@ -112,11 +146,7 @@ body
 	text-decoration:none !important;
 }
 
-.minions-cover{
-	background-image: url("../img/minions.jpg");
-	height:666px;
-	background-size: cover;
-}
+
 
 .minions-box{
 	color:#018EDE;
@@ -135,12 +165,62 @@ body
 }
 
 
+@media (max-width: 575.98px) {
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-576.jpg");
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-768.jpg");
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-992.jpg");
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-1200.jpg");
+    }
+
+}
+
+
+@media (min-width: 1200px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-1920.jpg");
+    }
+
+
+}
+    
+
+
 .what-we-do {
 	background-color:gray;
-	position:relative;
+	position:absolute;
 	background-image: url("../img/we-do.jpg");
-	background-size:  cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	
 }
 	
@@ -164,7 +244,18 @@ body
     background-size: cover;
     position: relative;
     transition: all 0.2s ease;
-	background-image: url("../img/IMG_9599.jpg");
+}
+
+.what-we-do-mkt{
+    background-image: url("../img/Slider/Home/WhatWeDo/mkt.jpg");
+}
+
+.what-we-do-contenidos{
+    background-image: url("../img/Slider/Home/WhatWeDo/contenido.jpg");
+}
+
+.what-we-do-carteleria{
+    background-image: url("../img/Slider/Home/WhatWeDo/carteleria.jpg");
 }
 
 
@@ -200,7 +291,7 @@ body
     color: #fff;
     font-weight: bold;
     margin: 0 0 15px;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .what-we-do-5 span {
@@ -315,9 +406,8 @@ body
 .contenidos {
 	height:450px;
 	background-color:#EAF9FF;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center center;
-    background-size: cover;
 	background-image: url("../img/fondo-smile.jpg");
 }
 
@@ -326,7 +416,8 @@ body
 	color:#FFFFFF;
 	margin-left:auto !important;
 	margin-right:auto !important;
-	font-size:22pt;
+
+
 }
 
 .create-content {
@@ -334,12 +425,10 @@ body
 	color:#9C9C9C;
 	text-align:right;
 	background-color:#FFFFFF;
+    padding:15px;
 }
 
-.countered {
-	font-size:25pt;
-	font-weight:bold;
-}
+
 
 .fw-divider-space {
     clear: both;
@@ -500,7 +589,7 @@ body
 
 .portfolio-showcase .portfolio_item,
 .portfolio-archive .portfolio_item {
-    width: 25%;
+    width: 20%;
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -677,17 +766,17 @@ body
 }
 
 .btn-some-works {
-	color:black !important;
-	background-color:white;
-	border:1px solid black;
+	color:#5f5f5f !important;
+	background-color:#ffff;
+	border:1px solid #5f5f5f;
 	border-radius:0px !important;
 }
 
 
 .btn-some-works:hover,.btn-some-works:focus,.btn-some-works:active {
-	background-color:black !important;
-	color:white !important;
-	border: 1px solid white;
+	background-color:#5f5f5f !important;
+	color:#ffff !important;
+	border: 1px solid #ffff;
 }
 
 .footer-lamp
@@ -742,4 +831,65 @@ body
 	color:#9CC18D;
 	background-color:#ffff;
 	border:3px solid #9CC18D;
+}
+
+.creamos{
+    font-family:Helvetica;
+    font-size:30pt;
+    letter-spacing:10pt;
+
+}
+
+.countered {
+    font-size:50pt;
+    font-family:HelveticaBold;
+    letter-spacing:10pt;
+    line-height: 0.7 !important;
+}
+
+.contenidos-creamos-1{
+    font-size:25pt;
+    font-family: HelveticaNeuel;
+    line-height: 1 !important;
+    font-weight: bold;
+}
+.contenidos-creamos-2{
+    font-size:25pt;
+    font-family: HelveticaNeuel;
+    line-height: 1.2 !important;
+     font-weight: bold;
+}
+
+.algunos {
+    font-family:HelveticaNeuel;
+    color:#5f5f5f;
+    font-size:40pt;
+}
+
+
+.trabajos {
+    font-family:HelveticaNeuel;
+    font-weight: bold;
+    color:#5f5f5f;
+    font-size:40pt;
+}
+
+.que {
+    font-family:HelveticaNeuel;
+    color:#5f5f5f;
+    font-size:30pt;
+}
+
+.hacemos {
+    font-family:HelveticaNeuel;
+    color:#5f5f5f;
+    font-weight: bold;
+    font-size:30pt;
+}
+
+.que-hacemos{
+    font-family:Helvetica;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size:14pt;
 }
