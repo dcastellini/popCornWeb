@@ -896,3 +896,16 @@ body
     letter-spacing: 2px;
     font-size:14pt;
 }
+
+
+.nav-what-we-do:hover,
+.nav-what-we-do:focus,
+.nav-what-we-do:active {
+    color:#96D2EA !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color:black !important;
+}
