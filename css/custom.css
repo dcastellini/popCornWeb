@@ -119,6 +119,9 @@ body
 	padding:auto !important;
 	margin:auto !important;
 	font-size:50pt !important;
+    display:inline;
+    border:3px solid #ffff;
+    padding:10px;
 }
 
 
