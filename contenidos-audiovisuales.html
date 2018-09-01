@@ -12,11 +12,27 @@
     <link rel="stylesheet" href="css/custom-contenidos.css">
     <link rel="stylesheet" href="css/front-end-grid.css">
     <link rel="stylesheet" href="css/media-querys.css">
+    	<script src="js/jquery-3.2.11.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+    	
+$(document).ready(function(){
+	$("#Empresarial").on('click', function(e) {
+    	// prevent the default action, in this case the following of a link
+    	e.preventDefault();
+    	 var url = $(this).attr('href');
+    	// capture the href attribute of the a element
+       alert(url);
+
+	})
+})
+    </script>
   </head>
   <body class="onsite">
 	<header>
 		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente center-header">
-			<div class="container">
+									<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
+														<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
 			<a class="navbar-brand" href="#"><img src="img/logo-pop.png"/></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -47,7 +63,7 @@
 						<a class="nav-link font-white" href="tel:+541152383555">54.11.5238.3555</a>
 					</li>
 				</ul>
-			</div></div>
+			</div></div></div>
 		</nav>
 	</header>
 	<section class="video_intro alternate" style="background-image: url(img/art.jpg">
@@ -65,7 +81,7 @@
 			</div>
 		</div>
         <h1></h1>
-		<h2>TRANSFORMAMOS LAS IDEAS<br>de tu empresa en realidad</h2>
+		<h2><div id="slogan-audiovisual">TRANSFORMAMOS LAS IDEAS<br>de tu empresa en realidad</div></h2>
 		<div class="intro_buttons">	
 			<a href="#" class="iris_btn iris_btn--lg iris_btn--secondary contact-me">Contenidos Audiovisuales</a>
 		</div>
@@ -82,12 +98,12 @@
 			<br>
 			<br>
 			<div class="row videos-genre">
-				<div class="col-lg-2">Empresarial/Institucional</div>
-				<div class="col-lg-2">Motion Graphics</div>
-				<div class="col-lg-2">Con personajes</div>
-				<div class="col-lg-2">Marketing digital</div>
-				<div class="col-lg-2">Cartelería digital</div>
-				<div class="col-lg-2">Capacitación</div>
+				<div class="col-lg-2"><a href="#" id="Empresarial">Empresarial/Institucional</a></div>
+				<div class="col-lg-2"><a href="#" id="Motion">Motion Graphics</a></div>
+				<div class="col-lg-2"><a href="#" id="Personajes">Con personajes</a></div>
+				<div class="col-lg-2"><a href="#" id="Marketing">Marketing digital</a></div>
+				<div class="col-lg-2"><a href="#" id="Carteleria">Cartelería digital</a></div>
+				<div class="col-lg-2"><a href="#" id="Capacitacion">Capacitación</a></div>
 			</div>
 			<div class="row">
 				<div class="col-lg-12">---------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
@@ -331,13 +347,24 @@
 			<div class="row">
 				<div class="col-lg-4"></div>
 				<div class="col-lg-4 text-center">
-					<img src="img/tira-social.png" alt="social">
+						<a href="https://www.facebook.com/popcorntv.produccion/">
+							<img src="img/RedesSociales/Redes/facebook.png" alt="Facebook">
+						</a>
+						<a href="https://www.linkedin.com/in/popcorntv-producciones-audiovisuales-1096211a/">
+							<img src="img/RedesSociales/Redes/linkedin.png" alt="Linkedin">
+						</a>
+						<a href="https://vimeo.com/popcorntv">
+							<img src="img/RedesSociales/Redes/vimeo.png" alt="Vimeo">
+						</a>
+						<a href="https://www.instagram.com/popcorntv.agencia/?hl=es">
+							<img src="img/RedesSociales/Redes/instagram.png" alt="Instagram">
+						</a>
 				</div>
 				<div class="col-lg-4"></div>
 			</div>
 			<div class="row">
 				<div class="col-lg-3"></div>
-				<div class="col-lg-6 text-center">2018 Popcorntv Producciones Audiovisuales - Términos y condiciones. - Política de Privacidad -</div>
+				<div class="col-lg-6 text-center">© 2018 Popcorntv Producciones Audiovisuales - Términos y condiciones. - Política de Privacidad -</div>
 				<div class="col-lg-3"></div>
 			</div>
 			<div class="row">
@@ -349,9 +376,9 @@
 	</footer>
 	
 	<!-- loader -->
-	<script src="js/jquery-3.2.11.min.js"></script>
-	<script src="js/jquery-3.2.1.min.js"></script>
+
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/changeVideos.js"></script>	
 	</body>
 </html>
