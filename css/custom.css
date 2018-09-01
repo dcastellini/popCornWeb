@@ -99,12 +99,12 @@ body
 .blue-title{
 	font-size:22pt;
 	font-weight:bold;
+
 }
 
 .blue-text{
 	font-size:13pt;
 	font-weight:bold;
-	text-align:center !important;
 }
 
 .blue-box{
@@ -151,20 +151,28 @@ body
 
 
 
-.minions-box{
-	color:#018EDE;
+.minions-box {
+    font-weight: bold;
 	font-size:22pt;
 	border:3px solid #018EDE;
 	padding:40px;
+    margin: 5px;
+    background-color: #ffffff;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    color:#018EDE;
 }
 
-.minions-prebox {
+
+div.minions-prebox {
 	border:1px solid transparent;
 	padding:30px;
 	background-color:#F9F9FB;
 	margin-top:22%;
 	margin-right:auto;
 	margin-left:auto;
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 
@@ -473,6 +481,10 @@ body
 
 .footer-row {
 	margin-top:14%;
+}
+
+.vp-video{
+    width:100% !important;
 }
 
 .navscroll {
