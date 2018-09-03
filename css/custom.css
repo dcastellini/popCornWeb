@@ -1,50 +1,3 @@
-@font-face {
-	font-family:"HelveticaNeuel";
-	src: url("../fonts/HelveticaNeueL.otf");
-	src: local("0"),
-		 url("../fonts/HelveticaNeueL.ttf"),
-		 url("../fonts/HelveticaNeueL.eot"),
-		 url("../fonts/HelveticaNeueL.woff");
-}
-
-@font-face {
-	font-family:"HelveticaRounded";
-	src: url("../fonts/HelveticaRounded.otf");
-	src: local("0"),
-		 url("../fonts/HelveticaRounded.ttf"),
-		 url("../fonts/HelveticaRounded.eot"),
-		 url("../fonts/HelveticaRounded.woff");
-}
-
-@font-face {
-    font-family:"HelveticaLight";
-    src: url("../fonts/HelveticaLTStd-Light.otf");
-    src: local("0"),
-         url("../fonts/HelveticaLTStd-Light.ttf"),
-         url("../fonts/HelveticaLTStd-Light.eot"),
-         url("../fonts/HelveticaLTStd-Light.woff");
-}
-
-@font-face {
-    font-family:"HelveticaBold";
-    src: url("../fonts/HelveticaLTStd-Bold.otf");
-    src: local("0"),
-         url("../fonts/HelveticaLTStd-Bold.ttf"),
-         url("../fonts/HelveticaLTStd-Bold.eot"),
-         url("../fonts/HelveticaLTStd-Bold.woff");
-}
-
-@font-face {
-    font-family:"Helvetica";
-    src: url("../fonts/HelveticaLTStd-Roman.otf");
-    src: local("0"),
-         url("../fonts/HelveticaLTStd-Roman.ttf"),
-         url("../fonts/HelveticaLTStd-Roman.eot"),
-         url("../fonts/HelveticaLTStd-Roman.woff");
-}
-
-
-
 html{
     margin:0 !important;
     padding:0 !important;
@@ -181,57 +134,6 @@ div.minions-prebox {
 }
 
 
-@media (max-width: 575.98px) {
-    .minions-cover{
-        height:666px;
-        background-size: cover;
-        background-image: url("../img/Fondos/Minions/minions-576.jpg");
-    }
-
-}
-
-
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .minions-cover{
-        height:666px;
-        background-size: cover;
-        background-image: url("../img/Fondos/Minions/minions-768.jpg");
-    }
-
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .minions-cover{
-        height:666px;
-        background-size: cover;
-        background-image: url("../img/Fondos/Minions/minions-992.jpg");
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .minions-cover{
-        height:666px;
-        background-size: cover;
-        background-image: url("../img/Fondos/Minions/minions-1200.jpg");
-    }
-
-}
-
-
-@media (min-width: 1200px) { 
-    .minions-cover{
-        height:666px;
-        background-size: cover;
-        background-image: url("../img/Fondos/Minions/minions-1920.jpg");
-    }
-
-
-}
-    
-
-
 .what-we-do {
 	background-color:gray;
 	position:absolute;
@@ -239,238 +141,6 @@ div.minions-prebox {
 	background-repeat: repeat;
 	
 }
-
-.we-do-empresarial-bba {
-    background-image: url("../img/Clientes/ListadoVideos/BBA.jpg");
-}
-
-.we-do-empresarial-consulmed{
-    background-image: url("../img/Clientes/ListadoVideos/consulmed.jpg");
-}
-
-.we-do-empresarial-kessel{
-    background-image: url("../img/Clientes/ListadoVideos/kessel.jpg");
-}
-
-.we-do-empresarial-electrosistemas{
-    background-image: url("../img/Clientes/ListadoVideos/electrosistemas.jpg");
-}
-
-.we-do-empresarial-edelflex{
-    background-image: url("../img/Clientes/ListadoVideos/edelflex.jpg");
-}
-.we-do-empresarial-cromosol{
-    background-image: url("../img/Clientes/ListadoVideos/cromosol.jpg");
-}
-.we-do-empresarial-basani{
-    background-image: url("../img/Clientes/ListadoVideos/basani.jpg");
-}
-.we-do-empresarial-cid{
-    background-image: url("../img/Clientes/ListadoVideos/cid.jpg");
-}
-.we-do-empresarial-centralab{
-    background-image: url("../img/Clientes/ListadoVideos/centralab.jpg");
-}
-.we-do-empresarial-ima{
-    background-image: url("../img/Clientes/ListadoVideos/ima.jpg");
-}
-.we-do-empresarial-benozzi{
-    background-image: url("../img/Clientes/ListadoVideos/benozzi.jpg");
-}
-.we-do-empresarial-libus{
-    background-image: url("../img/Clientes/ListadoVideos/libus.jpg");
-}
-.we-do-empresarial-fitz-roy{
-    background-image: url("../img/Clientes/ListadoVideos/fitz-roy.jpg");
-}
-
-.we-do-empresarial-jenk{
-    background-image: url("../img/Clientes/ListadoVideos/jenk.jpg");
-}
-    
-.we-do-empresarial-juego-cv{
-    background-image: url("../img/Clientes/ListadoVideos/juego-cv.jpg");
-}
-.we-do-empresarial-dic{
-    background-image: url("../img/Clientes/ListadoVideos/dic.jpg");
-}
-.we-do-empresarial-bosch{
-    background-image: url("../img/Clientes/ListadoVideos/bosch.jpg");
-}
-.we-do-empresarial-vw{
-    background-image: url("../img/Clientes/ListadoVideos/vw.jpg");
-}
-.we-do-empresarial-sit{
-    background-image: url("../img/Clientes/ListadoVideos/sit.jpg");
-}
-.we-do-empresarial-amap{
-    background-image: url("../img/Clientes/ListadoVideos/amap.jpg");
-}
-.we-do-empresarial-amia{
-    background-image: url("../img/Clientes/ListadoVideos/amia.jpg");
-}
-
-.we-do-empresarial-argenmetal{
-    background-image: url("../img/Clientes/ListadoVideos/argenmetal.jpg");
-}
-
-.we-do-empresarial-bvision{
-    background-image: url("../img/Clientes/ListadoVideos/bvision.jpg");
-}
-
-.we-do-empresarial-sanovo{
-    background-image: url("../img/Clientes/ListadoVideos/sanovo.jpg");
-}
-
-.we-do-empresarial-nazca{
-    background-image: url("../img/Clientes/ListadoVideos/nazca.jpg");
-}
-
-.we-do-empresarial-sie{
-    background-image: url("../img/Clientes/ListadoVideos/sie.jpg");
-}
-
-.we-do-empresarial-santa{
-    background-image: url("../img/Clientes/ListadoVideos/santa.jpg");
-}
-
-.we-do-empresarial-soporte{
-    background-image: url("../img/Clientes/ListadoVideos/soporte.jpg");
-}
-
-.we-do-empresarial-raal{
-    background-image: url("../img/Clientes/ListadoVideos/raal.jpg");
-}
-
-.we-do-empresarial-ados{
-    background-image: url("../img/Clientes/ListadoVideos/ados.jpg");
-}
-.we-do-empresarial-hanseatica-1{
-    background-image: url("../img/Clientes/ListadoVideos/hanseatica-1.jpg");
-}
-.we-do-empresarial-hanseatica-2{
-    background-image: url("../img/Clientes/ListadoVideos/hanseatica-2.jpg");
-}
-
-.we-do-empresarial-mirkus{
-    background-image: url("../img/Clientes/ListadoVideos/mirkus.jpg");
-}
-.we-do-empresarial-negozona{
-    background-image: url("../img/Clientes/ListadoVideos/negozona.jpg");
-}
-.we-do-empresarial-sis{
-    background-image: url("../img/Clientes/ListadoVideos/sis.jpg");
-}
-.we-do-empresarial-intramed{
-    background-image: url("../img/Clientes/ListadoVideos/intramed.jpg");
-}
-.we-do-empresarial-bba1{
-    background-image: url("../img/Clientes/ListadoVideos/bba1.jpg");
-}
-.we-do-empresarial-elecciones{
-    background-image: url("../img/Clientes/ListadoVideos/elecciones.jpg");
-}
-.we-do-empresarial-tpcg{
-    background-image: url("../img/Clientes/ListadoVideos/tpcg.jpg");
-}
-.we-do-empresarial-cic{
-    background-image: url("../img/Clientes/ListadoVideos/cic.jpg");
-}
-.we-do-empresarial-sie-1{
-    background-image: url("../img/Clientes/ListadoVideos/sie-1.jpg");
-}
-.we-do-empresarial-ilc{
-    background-image: url("../img/Clientes/ListadoVideos/ilc.jpg");
-}
-.we-do-empresarial-yook{
-    background-image: url("../img/Clientes/ListadoVideos/yook.jpg");
-}
-.we-do-empresarial-utn{
-    background-image: url("../img/Clientes/ListadoVideos/utn.jpg");
-}
-.we-do-empresarial-aerre{
-    background-image: url("../img/Clientes/ListadoVideos/aerre.jpg");
-}
-
-.we-do-empresarial-hanseatica{
-    background-image: url("../img/Clientes/ListadoVideos/hanseatica.jpg");
-}
-
-.we-do-empresarial-ldd{
-    background-image: url("../img/Clientes/ListadoVideos/ldd.jpg");
-}
-
-.we-do-empresarial-raal-1{
-    background-image: url("../img/Clientes/ListadoVideos/raal-1.jpg");
-}
-
-.we-do-empresarial-amap-1{
-    background-image: url("../img/Clientes/ListadoVideos/amap-1.jpg");
-}
-
-.we-do-empresarial-assap{
-    background-image: url("../img/Clientes/ListadoVideos/assap.jpg");
-}
-
-.we-do-empresarial-isae{
-    background-image: url("../img/Clientes/ListadoVideos/isae.jpg");
-}
-
-.we-do-empresarial-debmedia{
-    background-image: url("../img/Clientes/ListadoVideos/debmedia.jpg");
-}
-.we-do-empresarial-xpand{
-    background-image: url("../img/Clientes/ListadoVideos/xpand.jpg");
-}
-
-.we-do-empresarial-soporte-emp{
-    background-image: url("../img/Clientes/ListadoVideos/soporte-emp.jpg");
-}
-
-.we-do-empresarial-demasled{
-    background-image: url("../img/Clientes/ListadoVideos/demasled.jpg");
-}
-
-.we-do-empresarial-integrago{
-    background-image: url("../img/Clientes/ListadoVideos/integrago.jpg");
-}
-
-.we-do-empresarial-agroassay{
-    background-image: url("../img/Clientes/ListadoVideos/agroassay.jpg");
-}
-
-.we-do-empresarial-vendemos{
-    background-image: url("../img/Clientes/ListadoVideos/vendemos.jpg");
-}
-
-.we-do-empresarial-musux{
-    background-image: url("../img/Clientes/ListadoVideos/musux.jpg");
-}
-
-.we-do-empresarial-tecnipisos{
-    background-image: url("../img/Clientes/ListadoVideos/tecnipisos.jpg");
-}
-
-.we-do-empresarial-bba-2{
-    background-image: url("../img/Clientes/ListadoVideos/bba-2.jpg");
-}
-
-.we-do-empresarial-quimtia{
-    background-image: url("../img/Clientes/ListadoVideos/quimtia.jpg");
-}
-
-.we-do-empresarial-kessel{
-    background-image: url("../img/Clientes/ListadoVideos/kessel.jpg");
-}
-
-.we-do-empresarial-kessel{
-    background-image: url("../img/Clientes/ListadoVideos/kessel.jpg");
-}
-
-.we-do-empresarial-kessel{
-    background-image: url("../img/Clientes/ListadoVideos/kessel.jpg");
-}
-
 
 
 .what-we-do-box {
@@ -729,9 +399,11 @@ div.minions-prebox {
     transition:background-color 500ms, color 500ms;
 }
 
-.azul {
-    background-color:blue !important;
+.black {
+    background-color:black !important;
     color:white;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .right {
@@ -1041,8 +713,35 @@ div.minions-prebox {
 
 .title-cliente
 {
+    font-family:HelveticaNeuel;
+    color:#ffff;
+    font-size:bold;
+    font-size:30pt;
+    display:inline;
+   
+}
+
+.title-cliente-p{
     border:2px solid #E9C515;
-    padding:15px;
+    display:inline;
+    padding-left:150px;
+    padding-right:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.trust{
+    font-family:HelveticaNeuel;
+    font-size:bold;
+    font-size:30pt;
+    color:#ffff;
+}
+
+.tks {
+    font-family:HelveticaNeuel;
+    font-size:bold;
+    color:#ffff;
+    font-size:15pt;
 }
 
 .back-stones
@@ -1053,12 +752,19 @@ div.minions-prebox {
 .stones-strategy
 {
 	color:#ffff;
+    font-family: HelveticaNeuel;
+    letter-spacing: 2px;
+    font-size:20pt;
 }
 
 .stones-green
 {
-	background-color:#3DAD87;
-	
+
+    color:#ffff;
+    letter-spacing: 10px;
+    font-size:25pt;
+	font-family: HelveticaNeuel;
+    font-weight: bold;
 }
 
 .comunicacion-360
@@ -1066,25 +772,14 @@ div.minions-prebox {
 	border: 3px solid #525252;
 	color:#525252;
 	text-align:center;
+    display:inline-block;
+    padding-left:30px;
+    padding-right:30px;
 }
 
-.candy-back
-{
-	background-image: url("../img/Fondos/candy-back.jpg");
-    background-size: cover;
-}
 
-.candy-box
-{
-	margin-right:auto;
-	margin-left:auto;
-	display:block;
-	height:auto;
-	width:auto;
-	color:#9CC18D;
-	background-color:#ffff;
-	border:3px solid #9CC18D;
-}
+
+
 
 .creamos{
     font-family:Helvetica;
@@ -1180,3 +875,133 @@ div.minions-prebox {
     
 }
 
+.background{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-white {
+    color:#ffff;
+    font-family:HelveticaNeuel;
+    font-size:13pt;
+
+}
+
+nav{
+    font-family:Helvetica;
+    font-size:15pt;
+}
+
+.margin-top {
+    margin-top:15px;
+}
+
+#selected-nav {
+    color:#1492C7 !important;
+}
+
+.form-control {
+    font-size:10pt;
+    font-family: Helvetica;
+}
+
+.content-for{
+    font-family:HelveticaNeuel;
+    color:#ffff;
+    font-size:20pt;
+    letter-spacing: 2px;
+}
+
+.content-mkt {
+    font-family:HelveticaNeuel;
+    color:#3CAD87;
+    font-weight: bold;
+    font-size:20pt;
+    letter-spacing: 2px;
+}
+
+.border-content{
+    border:2px solid #3CAD87;
+    display:inline;
+    padding:20px;
+}
+
+.green-rectangle{
+    background-color:#3DAD87;
+    display:inline;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.comunication {
+    color:#4A4A49;
+    font-family: HelveticaNeuel;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size:30pt;
+}
+
+.mkt-dig {
+    color:#4A4A49;
+    font-family: HelveticaNeuel;
+    letter-spacing: 2px;
+    font-size:15pt;
+
+}
+
+.audio-vis{
+    color:#4A4A49;
+    font-family: HelveticaNeuel;
+    font-size:15pt;
+    letter-spacing: 0px;
+}
+
+.inline{
+    display:inline-block;
+    border:1px solid black;
+}
+
+.btn-contactanos{
+    background-color:#656364;
+    border-width:0px !important;
+    border-radius:0px !important;
+    
+}
+
+#boton-contacto{
+    color:#ffff !important;
+    font-family: HelveticaNeuel;
+    font-weight: bold;
+}
+
+.candy-box
+{
+    border: 3px solid #9FC886;
+    color:#9FC886;
+    text-align: justify ;
+    display:inline-block;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#ffff;
+    font-family: Arial;
+    font-weight:bold;
+    font-size:25pt;
+    letter-spacing: 7px;
+    line-height: 35px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.candy-border{
+    background-color:white;
+    display: inline-block;
+    border:30px solid white;
+}
+
+.candy-back
+{
+    background-image: url("../img/Fondos/candy-back.jpg");
+    background-size: cover;
+}   

@@ -1,9 +1,9 @@
 $(function (){
       $(window).scroll(function(){
          if ($(this).scrollTop() > 10) {
-          $('.navscroll').addClass("azul");
+          $('.navscroll').addClass("black");
          } else {
-          $(".navscroll").removeClass("azul");
+          $(".navscroll").removeClass("black");
          }
       });
   });

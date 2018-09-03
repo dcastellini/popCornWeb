@@ -1,0 +1,50 @@
+
+@media (max-width: 575.98px) {
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-576.jpg");
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-768.jpg");
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-992.jpg");
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-1200.jpg");
+    }
+
+}
+
+
+@media (min-width: 1200px) { 
+    .minions-cover{
+        height:666px;
+        background-size: cover;
+        background-image: url("../img/Fondos/Minions/minions-1920.jpg");
+    }
+
+
+}
+

@@ -10,6 +10,7 @@
 
 .red-asterisk {
 	color:#9F4A51;
+	font-family:bold;
 }
 
 .form-title {
@@ -17,6 +18,9 @@
 	padding:10px;
 	text-align:center !important;
 	color:#ffff;
+	font-family:HelveticaNeuel;
+	font-size:bold;
+	font-size:15pt;
 }
 
 body
@@ -25,10 +29,7 @@ body
 	background-size: cover;
 }
 
-.contact-social {
-	padding-right:20px;
-	
-}
+
 
 .btn-contact {
 	color:white !important;
@@ -46,4 +47,24 @@ body
 .font-white {
 	color:white;
 	text-align:center;
+}
+
+.titulo-formulario{
+	font-family:Helvetica;
+	font-size:10pt;
+}
+
+.contact-social-cotizar {
+    padding-right:20px;   
+    background-color: #018FD7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	opacity: 0.3;
+    text-align:center;
+}
+
+.info-text {
+	color:#ffff;
+	text-align:center;
+	font-family: Helvetica;
+	letter-spacing: 2px;
 }
