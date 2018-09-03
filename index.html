@@ -14,10 +14,30 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/front-end-grid.css">
     <link rel="stylesheet" href="css/media-querys.css">
+    <script src="js/jquery-3.2.11.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script>
+	    function resize() {
+		    if ($(window).width() < 770) {
+		    	$('#video-resp-index').addClass("video-responsive");
+		    	$('#iframe').html("");
+		    }
+		    else{
+		    	$('#video-resp-index').removeClass("video-responsive");
+		    	$('#iframe').html('<iframe src="https://player.vimeo.com/video/285179154?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+		    }
+		}
+		$(document).ready( function() {
+    		$(window).resize(resize);
+   			resize();
+		});
+  	</script>
   </head>
   <body>
 	<header>
-		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente ">
+		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente">
 			<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
 				<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
 					<a class="navbar-brand" href="#"><img id="logo" src="img/Logos/logo-pop.png"/></a>
@@ -55,7 +75,7 @@
 			</div>
 		</nav>
 	</header>
-	<section class="video_intro alternate">
+	<section class="video_intro alternate" id="video-resp-index">
         <style>.player{width:100%;height:100%;}.player>video{display:none !important}</style>
 		<div aria-hidden="true" id="clip_264640909" class="player_container js-player_container_264640909" style="visibility: visible; opacity: 1; top: 0px; left: 0px; height: 186%; width: 100%;">
 			<div id="player_1_5b63381d91776" class="player js-player widescreen uwidescreen player-9af2d299-51db-46d1-81e3-7989f2f85ed6 js-player-fullscreen no-playbar with-sticky-custom-logo background-mode player-lg player-cardsCorner" data-fallback-url="//player.vimeo.com/video/264640909/fallback?js" style="width:100%;height:0;padding-bottom:52.12%;" data-clip-padding-percent="52.12" data-clip-id="264640909" data-player="true">
@@ -64,7 +84,7 @@
 						<div class="vp-video-wrapper transparent">
 							<div class="vp-video">
 								<div class="vp-telecine">
-									<div class="embed-responsive embed-responsive-16by9">
+									<div class="embed-responsive embed-responsive-16by9" id="iframe">
 										<iframe src="https://player.vimeo.com/video/285179154?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									</div>
 								</div>
@@ -422,10 +442,6 @@
 		</div>
     </footer>
     <!-- loader -->
-	<script src="js/jquery-3.2.11.min.js"></script>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carrousel.js"></script>
 	<script src="js/scroll.js"></script>

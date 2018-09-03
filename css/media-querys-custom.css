@@ -53,6 +53,18 @@
         font-size:19pt !important;
         padding-bottom:20px;
     }
+    #slogan-musux{
+        font-size:19pt !important;
+        padding-bottom:20px;
+    }
+
+}
+
+@media (max-width:630px) {
+    #slogan-musux{
+        font-size:15pt !important;
+        padding-bottom:20px;
+    }
 
 }
 

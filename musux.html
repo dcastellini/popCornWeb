@@ -17,45 +17,83 @@
     <link rel="stylesheet" href="css/front-end-grid.css">
     <link rel="stylesheet" href="css/media-querys.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="js/jquery-3.2.11.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script>
+	    function resize() {
+		    if ($(window).width() < 630) {
+				$("#musux-image").attr("src","img/Logos/logo-musux-xs.png");
+		    }
+		    else{
+		    	if($(window).width() > 630){
+		    		$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
+		    	}
+		    	else{
+		    		$("#musux-image").attr("src","img/Logos/logo-musux.png");
+		    	}
+		    }
+		    if ($(window).width() < 770) {
+		    	$('#video-resp-index').addClass("video-responsive-musux");
+		    }
+		    else{
+		    	$('#video-resp-index').removeClass("video-responsive-musux");
+		    }
+		}
+		$(document).ready( function() {
+    		$(window).resize(resize);
+   			resize();
+		});
+  	</script>
+		}
+		$(document).ready( function() {
+    		$(window).resize(resize);
+   			resize();
+		});
+  	</script>
   </head>
   <body class="onsite">
 	<header>
 		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente center-header">
-			<div class="container">
-			<a class="navbar-brand" href="#"><img src="img/logo-pop.png"/></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent ">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link font-white nav-what-we-do" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item dropdown">					
-						<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
-						<div class="dropdown-menu black-drop" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Contenidos Audiovisuales</a>
-							<a class="dropdown-item" href="#">Cartelería Digital + Turnos</a>
-							<a class="dropdown-item" href="#">Marketing Digital</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link font-white nav-what-we-do" href="#">Nosotros</a>
-					</li>
-				    <li class="nav-item">
-						<a class="nav-link font-white nav-what-we-do" href="#">Clientes</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link font-white nav-what-we-do" href="#">Precios</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link font-white nav-what-we-do" href="tel:+541152383555">54.11.5238.3555</a>
-					</li>
-				</ul>
-			</div></div>
+			<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
+				<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
+					<a class="navbar-brand" href="#"><img src="img/logo-pop.png"/></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent ">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link font-white nav-what-we-do" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown">					
+								<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
+								<div class="dropdown-menu black-drop" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Contenidos Audiovisuales</a>
+									<a class="dropdown-item" href="#">Cartelería Digital + Turnos</a>
+									<a class="dropdown-item" href="#">Marketing Digital</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-white nav-what-we-do" href="#">Nosotros</a>
+							</li>
+						    <li class="nav-item">
+								<a class="nav-link font-white nav-what-we-do" href="#">Clientes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-white nav-what-we-do" href="#">Precios</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-white nav-what-we-do" href="tel:+541152383555">54.11.5238.3555</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</nav>
 	</header>
-	<section class="video_intro alternate">
+	<section class="video_intro alternate" id="video-resp-index">
         <style>.player{width:100%;height:100%;}.player>video{display:none !important}</style>
 		<div aria-hidden="true" id="clip_264640909" class="player_container js-player_container_264640909" style="visibility: visible; opacity: 1; top: 0px; left: 0px; height: 186%; width: 100%;">
 			<div id="player_1_5b63381d91776" class="player js-player widescreen uwidescreen player-9af2d299-51db-46d1-81e3-7989f2f85ed6 js-player-fullscreen no-playbar with-sticky-custom-logo background-mode player-lg player-cardsCorner" data-fallback-url="//player.vimeo.com/video/264640909/fallback?js" style="width:100%;height:0;padding-bottom:52.12%;" data-clip-padding-percent="52.12" data-clip-id="264640909" data-player="true">
@@ -64,7 +102,7 @@
 						<div class="vp-video-wrapper transparent">
 							<div class="vp-video">
 								<div class="vp-telecine">
-									<div class="embed-responsive embed-responsive-16by9">
+									<div class="embed-responsive embed-responsive-16by9" id="iframe">
 										<iframe src="https://player.vimeo.com/video/283533673?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 									</div>
 								</div>
@@ -73,11 +111,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
-        <h1><div id="slogan">¿POR QUÉ <img src="img/Logos/logo-musux.png"/>?</div></h1>
+		</div><br>
+        <h1><div id="slogan-musux">¿POR QUÉ <img id="musux-image" src="img/Logos/logo-musux.png"/>?</div></h1>
 		<h2><p class="sistema-carteleria">Sistema de cartelería digital + turnos</p></h2>
 		<div class="intro_buttons">	
-			<a href="#" class="iris_btn iris_btn--lg iris_btn--positive we-do"><span class="conocer">conocer</span><span class="more">' 'más</span></a>
+			<a href="#" class="iris_btn iris_btn--lg iris_btn--positive we-do"><div class="conocer">conocer</div><div class="more">más</div></a>
 		</div>
 	</section>
 	<br>
@@ -209,10 +247,6 @@
 	</footer>
 
     <!-- loader -->
-	<script src="js/jquery-3.2.11.min.js"></script>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carrousel-4.js"></script>
 	<script src="js/scroll.js"></script>

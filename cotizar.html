@@ -13,6 +13,46 @@
     <link rel="stylesheet" href="css/media-querys-custom.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/custom-cotizar.css">
+     <script src="js/jquery-3.2.11.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script>
+	    function resize() {
+		    if ($(window).width() < 992) {
+		    	$('#nav-1').removeClass('text-nowrap');
+		    	$('#nav-1').removeClass('flex-row');
+		    	$('#nav-1').removeClass('mx-md-auto');
+		    	$('#nav-1').removeClass('order-1');
+		    	$('#nav-1').removeClass('order-md-2');
+		    	$('#nav-2').removeClass('text-nowrap');
+		    	$('#nav-2').removeClass('flex-row');
+		    	$('#nav-2').removeClass('mx-md-auto');
+		    	$('#nav-2').removeClass('order-1');
+		    	$('#nav-2').removeClass('order-md-2');
+		    	$('#nav-2').removeClass('row');
+		    	$('#nav-2').removeClass('justify-content-center');
+		    }
+		    else{
+		    	$('#nav-1').addClass('text-nowrap');
+		    	$('#nav-1').addClass('flex-row');
+		    	$('#nav-1').addClass('mx-md-auto');
+		    	$('#nav-1').addClass('order-1');
+		    	$('#nav-1').addClass('order-md-2');
+		    	$('#nav-2').addClass('text-nowrap');
+		    	$('#nav-2').addClass('flex-row');
+		    	$('#nav-2').addClass('mx-md-auto');
+		    	$('#nav-2').addClass('order-1');
+		    	$('#nav-2').addClass('order-md-2');
+		    	$('#nav-2').addClass('row');
+		    	$('#nav-2').addClass('justify-content-center');
+		    }
+		}
+		$(document).ready( function() {
+    		$(window).resize(resize);
+   			resize();
+		});
+  	</script>
   </head>
 	<body class="onsite">
 		<!-- Modal Error -->
@@ -38,7 +78,7 @@
 			<nav class="navbar navscroll navbar-expand-lg navbar-light bg-light transparente center-header">
 				<div id="nav-1" class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
 					<div id="nav-2" class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
-						<a class="navbar-brand" href="#"><img src="img/logo-pop.png"/></a>
+						<a class="navbar-brand" href="#"><img src="img/Logos/logo-pop.png"/></a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>

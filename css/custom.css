@@ -83,6 +83,18 @@ a:hover, a:visited, a:link, a:active
     font-family: Helvetica;
 }
 
+#slogan-musux {
+    border:1px solid white;
+    width:auto !important;
+    padding:auto !important;
+    margin:auto !important;
+    font-size:35pt !important;
+    display:inline;
+    border:3px solid #ffff;
+    padding:10px;
+    font-family: Helvetica;
+}
+
 
 .contact-me{
 	background-color:#3EB18A !important;
@@ -1091,4 +1103,22 @@ footer .row{
 .vp-player-layout {
     width:100% !important;
     left:0 !important;
+}
+
+.video-responsive {
+    background-image:url("../img/Fondos/video-home.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.video-responsive-musux {
+    background-image:url("../img/Fondos/video-home.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#row-corrupto {
+    margin-right: 0px !important;
 }
