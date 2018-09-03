@@ -48,3 +48,18 @@
 
 }
 
+@media (max-width:870px) {
+    #slogan{
+        font-size:19pt !important;
+        padding-bottom:20px;
+    }
+
+}
+
+@media (max-width: 758px) {
+    .inline-creativity{
+        font-size:10pt !important;
+        font-weight:bold;
+    }
+
+}
