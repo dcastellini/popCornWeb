@@ -16,8 +16,44 @@
     <link rel="stylesheet" href="css/media-querys.css">
     <script src="js/jquery-3.2.11.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+	    function resize() {
+		    if ($(window).width() < 992) {
+		    	$('#nav-1').removeClass('text-nowrap');
+		    	$('#nav-1').removeClass('flex-row');
+		    	$('#nav-1').removeClass('mx-md-auto');
+		    	$('#nav-1').removeClass('order-1');
+		    	$('#nav-1').removeClass('order-md-2');
+		    	$('#nav-2').removeClass('text-nowrap');
+		    	$('#nav-2').removeClass('flex-row');
+		    	$('#nav-2').removeClass('mx-md-auto');
+		    	$('#nav-2').removeClass('order-1');
+		    	$('#nav-2').removeClass('order-md-2');
+		    	$('#nav-2').removeClass('row');
+		    	$('#nav-2').removeClass('justify-content-center');
+		    }
+		    else{
+		    	$('#nav-1').addClass('text-nowrap');
+		    	$('#nav-1').addClass('flex-row');
+		    	$('#nav-1').addClass('mx-md-auto');
+		    	$('#nav-1').addClass('order-1');
+		    	$('#nav-1').addClass('order-md-2');
+		    	$('#nav-2').addClass('text-nowrap');
+		    	$('#nav-2').addClass('flex-row');
+		    	$('#nav-2').addClass('mx-md-auto');
+		    	$('#nav-2').addClass('order-1');
+		    	$('#nav-2').addClass('order-md-2');
+		    	$('#nav-2').addClass('row');
+		    	$('#nav-2').addClass('justify-content-center');
+		    }
+		}
+		$(document).ready( function() {
+    		$(window).resize(resize);
+   			resize();
+		});
+  	</script>
     <script>
 	    function resize() {
 		    if ($(window).width() < 770) {
@@ -40,14 +76,14 @@
 		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente">
 			<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
 				<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
-					<a class="navbar-brand" href="#"><img id="logo" src="img/Logos/logo-pop.png"/></a>
+					<a class="navbar-brand" href="index.html"><img id="logo" src="img/Logos/logo-pop.png"/></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent ">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav">
 							<li class="nav-item active">
-								<a class="nav-link font-white nav-what-we-do" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link font-white nav-what-we-do" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item dropdown">					
 								<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
@@ -58,13 +94,13 @@
 								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" href="#Nosotros">Nosotros</a>
+								<a class="nav-link font-white nav-what-we-do" href="index.html#Nosotros">Nosotros</a>
 							</li>
 						    <li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" target="_blank" href="#">Clientes</a>
+								<a class="nav-link font-white nav-what-we-do" target="_blank" href="clientes.html">Clientes</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" target="_blank" href="#">Cotizar</a>
+								<a class="nav-link font-white nav-what-we-do" target="_blank" href="cotizar.html">Cotizar</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link font-white nav-what-we-do" href="tel:+541152383555">54.11.5238.3555</a>
@@ -245,6 +281,8 @@
 							</div>
 						</a>
 					</div>
+					<br>
+					<br>	
 				</div>
 			</div>
 		</div>
@@ -264,12 +302,11 @@
 		<br>
 		<br>
 		<br>
-			<div class="row contenidos-row justify-content-center ">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-1"></div>
-				<div class="col-lg-2 col-md-12 create-content "><span class="creamos countered-2500">CREAMOS</span> <br><div class="countered countered-2500">+ <span class="counter">2500</span></div></div>
-				<div class="col-lg-3 col-md-12 content-block "><br><span class="contenidos-creamos-1">Contenidos para empresas</span><span class="contenidos-creamos-2"> <br>de Argentina y el mundo.</span></div>
-				<div class="col-lg-3"></div>
+			<div class="row contenidos-row">
+				<div class="col-lg-3 col-md-1 col-sm-1"></div>
+				<div class="col-lg-3 col-md-5 col-sm-5 create-content "><span class="creamos countered-2500">CREAMOS</span> <br><div class="countered countered-2500">+ <span class="counter">2500</span></div></div>
+				<div class="col-lg-3 col-md-5 col-sm-5 content-block "><br><span class="contenidos-creamos-1">Contenidos para empresas</span><span class="contenidos-creamos-2"> <br>de Argentina y el mundo.</span></div>
+				<div class="col-lg-3 col-md-1 col-sm-1"></div>
 			</div>				
 		</div>
 	</section>
@@ -394,18 +431,23 @@
 	<section>
 		<div class="container ten">
 			<div class="row">
-				<div class="col-lg-6 logo-ten">
+				<div class="col-lg-5 logo-ten">
 					<img src="img/logo-bg.jpg"/>
 				</div>
-				<div class="col btn-ten"><b>+</b> de <span class="counter">10</span> años acompañando<br>a nuestros clientes en la comunicación<br>
+				<div class="col-lg-2">
+					<img src="img/Home/linea.png" alt="lineas" />
+				</div>
+				<div class="col-lg-5 btn-ten">
+					<b>+</b> de <span class="counter">10</span> años acompañando<br>a nuestros clientes en la comunicación<br>
 					<a href="#" class="iris_btn iris_btn--lg iris_btn--secondary contact-me" target="_blank">Conocelos</a>
 				</div>
 			</div>		
 		</div>
 	</section>
-	
+	<br>
     <footer>	
 		<div class="container-flush map-cover">
+			<br><br><br><br><br><br>				
 			<div class="container footer-custom">
 				<div class="row">
 					<div class="col-lg-5 footer-row">

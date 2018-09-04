@@ -7,7 +7,7 @@ html{
 body
 {
   margin:0 !important;
-  font-family:HelveticaRounded !important;
+  font-family:Helvetica;
   padding: 0 !important;
 }
 
@@ -376,7 +376,7 @@ div.minions-prebox {
 }
 
 .footer-custom {
-	height:560px;
+	height:auto;
 	margin-left:auto !important;
 	margin-right:auto !important;
 	text-align:center;
@@ -396,9 +396,7 @@ div.minions-prebox {
 	font-size:22pt;
 }
 
-.footer-row {
-	margin-top:14%;
-}
+
 
 .vp-video{
     width:100% !important;
@@ -792,15 +790,15 @@ div.minions-prebox {
 
 .creamos{
     font-family:Helvetica;
-    font-size:30pt;
-    letter-spacing:10pt;
+    font-size:25pt;
+    letter-spacing:7pt;
 
 }
 
 .countered {
-    font-size:50pt;
+    font-size:40pt;
     font-family:HelveticaBold;
-    letter-spacing:10pt;
+    letter-spacing:7pt;
     line-height: 0.7 !important;
 }
 
