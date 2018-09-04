@@ -1,6 +1,7 @@
 html{
     margin:0 !important;
     padding:0 !important;
+    scroll-behavior: smooth;
 }
 
 body
@@ -33,14 +34,9 @@ a:hover, a:visited, a:link, a:active
 
 .transparente a {
  color: white !important;	
- font-weight:bold !important;
 
 }
 
-.img-logo {
-	width:201px !important;
-	height:105px;
-}
 
 
 .black-drop {
@@ -1122,3 +1118,26 @@ footer .row{
 #row-corrupto {
     margin-right: 0px !important;
 }
+
+.owl-prev {
+    width: 15px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    margin-left: 25px;
+    display: block !important;
+    border:1px solid black;
+    color:#ffff !important;
+}
+
+.owl-next {
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    right: 25px;
+    display: block !important;
+    border:1px solid black;
+    color:#ffff !important;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ffff;font-size:30pt;}
