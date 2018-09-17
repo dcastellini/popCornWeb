@@ -21,42 +21,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script>
-	    function resize() {
-		    if ($(window).width() < 992) {
-		    	$('#nav-1').removeClass('text-nowrap');
-		    	$('#nav-1').removeClass('flex-row');
-		    	$('#nav-1').removeClass('mx-md-auto');
-		    	$('#nav-1').removeClass('order-1');
-		    	$('#nav-1').removeClass('order-md-2');
-		    	$('#nav-2').removeClass('text-nowrap');
-		    	$('#nav-2').removeClass('flex-row');
-		    	$('#nav-2').removeClass('mx-md-auto');
-		    	$('#nav-2').removeClass('order-1');
-		    	$('#nav-2').removeClass('order-md-2');
-		    	$('#nav-2').removeClass('row');
-		    	$('#nav-2').removeClass('justify-content-center');
-		    }
-		    else{
-		    	$('#nav-1').addClass('text-nowrap');
-		    	$('#nav-1').addClass('flex-row');
-		    	$('#nav-1').addClass('mx-md-auto');
-		    	$('#nav-1').addClass('order-1');
-		    	$('#nav-1').addClass('order-md-2');
-		    	$('#nav-2').addClass('text-nowrap');
-		    	$('#nav-2').addClass('flex-row');
-		    	$('#nav-2').addClass('mx-md-auto');
-		    	$('#nav-2').addClass('order-1');
-		    	$('#nav-2').addClass('order-md-2');
-		    	$('#nav-2').addClass('row');
-		    	$('#nav-2').addClass('justify-content-center');
-		    }
-		}
-		$(document).ready( function() {
-    		$(window).resize(resize);
-   			resize();
-		});
-  	</script>
     <script>
 	    function resize() {
  			if ($(window).width() < 630) {
@@ -96,17 +60,13 @@
     		$(window).resize(resize);
    			resize();
 		});
-<<<<<<< HEAD:carteleria-digital.html
-  	</script>
-=======
-	</script>
->>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec:musux.html
+   </script>
    </head>
    <body class="onsite">
 	<header>
-		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente center-header">
-			<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
-				<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
+		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente" id="nav-bar">
+			<div id="nav-1" class="container">
+				<div id="nav-2" class="row justify-content-center mx-md-auto">
 					<a class="navbar-brand" href="index.html"><img src="img/logo-pop.png"/></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -119,10 +79,9 @@
 							<li class="nav-item dropdown">					
 								<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
 								<div class="dropdown-menu black-drop" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="contenidos-audiovisuales.html">Contenidos Audiovisuales</a>
-<<<<<<< HEAD:carteleria-digital.html
-									<a class="dropdown-item" href="carteleria-digital.html">Cartelería Digital + Turnos</a>
-									<a class="dropdown-item" href="marketing-digital.html">Marketing Digital</a>
+									<a class="dropdown-item" target="_blank" href="contenidos-audiovisuales.html">Contenidos Audiovisuales</a>
+									<a class="dropdown-item" target="_blank" href="carteleria-digital.html">Cartelería Digital + Turnos</a>
+									<a class="dropdown-item" target="_blank" href="marketing-digital.html">Marketing Digital</a>
 								</div>
 							</li>
 							<li class="nav-item">
@@ -133,20 +92,6 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link font-white nav-what-we-do" target="_blank" href="cotizar.html">Cotizar</a>
-=======
-									<a class="dropdown-item" href="musux.html">Cartelería Digital + Turnos</a>
-									<a class="dropdown-item" href="piedras.html">Marketing Digital</a>
-								</div>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" href="index.html#Nosotros">Nosotros</a>
-							</li>
-						    <li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" href="clientes.html">Clientes</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do" href="cotizar.html">Cotizar</a>
->>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec:musux.html
 							</li>
 							<li class="nav-item">
 								<a class="nav-link font-white nav-what-we-do" href="tel:+541152383555">54.11.5238.3555</a>
@@ -266,7 +211,6 @@
 			</div>
 		</div>
 	</footer>
-
     <!-- loader -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carrousel-1.js"></script>
