@@ -23,34 +23,20 @@
     <script>
 	    function resize() {
 		    if ($(window).width() < 992) {
-		    	$('#nav-1').removeClass('text-nowrap');
-		    	$('#nav-1').removeClass('flex-row');
-		    	$('#nav-1').removeClass('mx-md-auto');
-		    	$('#nav-1').removeClass('order-1');
-		    	$('#nav-1').removeClass('order-md-2');
-		    	$('#nav-2').removeClass('text-nowrap');
-		    	$('#nav-2').removeClass('flex-row');
+		    	$('#nav-bar').addClass('black-back');
+		    	$('#nav-bar').removeClass('transparente');
 		    	$('#nav-2').removeClass('mx-md-auto');
-		    	$('#nav-2').removeClass('order-1');
-		    	$('#nav-2').removeClass('order-md-2');
 		    	$('#nav-2').removeClass('row');
 		    	$('#nav-2').removeClass('justify-content-center');
 		    }
 		    else{
-		    	$('#nav-1').addClass('text-nowrap');
-		    	$('#nav-1').addClass('flex-row');
-		    	$('#nav-1').addClass('mx-md-auto');
-		    	$('#nav-1').addClass('order-1');
-		    	$('#nav-1').addClass('order-md-2');
-		    	$('#nav-2').addClass('text-nowrap');
-		    	$('#nav-2').addClass('flex-row');
+		    	$('#nav-bar').removeClass('black-back');
+		    	$('#nav-bar').addClass('transparente');
 		    	$('#nav-2').addClass('mx-md-auto');
-		    	$('#nav-2').addClass('order-1');
-		    	$('#nav-2').addClass('order-md-2');
 		    	$('#nav-2').addClass('row');
 		    	$('#nav-2').addClass('justify-content-center');
-
 		    }
+
 		}
 		$(document).ready( function() {
     		$(window).resize(resize);
@@ -75,6 +61,15 @@
 							<li class="nav-item dropdown">					
 								<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
 								<div class="dropdown-menu black-drop" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
+									<a class="dropdown-item" target="_blank" href="contenidos-audiovisuales.html">Contenidos Audiovisuales</a>
+									<a class="dropdown-item" target="_blank" href="carteleria-digital.html">Cartelería Digital + Turnos</a>
+									<a class="dropdown-item" target="_blank" href="marketing-digital.html">Marketing Digital</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link font-white nav-what-we-do" target="_blank" href="index.html#Nosotros">Nosotros</a>
+=======
 									<a class="dropdown-item" href="contenidos-audiovisuales.html">Contenidos Audiovisuales</a>
 									<a class="dropdown-item" href="musux.html">Cartelería Digital + Turnos</a>
 									<a class="dropdown-item" href="piedras.html">Marketing Digital</a>
@@ -82,12 +77,17 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link font-white nav-what-we-do" href="index.html#Nosotros">Nosotros</a>
+>>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
 							</li>
 						    <li class="nav-item">
-								<a class="nav-link font-white nav-what-we-do"  id="selected-nav" href="clientes.html">Clientes</a>
+								<a class="nav-link font-white nav-what-we-do"  target="_blank" id="selected-nav" href="clientes.html">Clientes</a>
 							</li>
 							<li class="nav-item">
+<<<<<<< HEAD
+								<a class="nav-link font-white nav-what-we-do" target="_blank" href="cotizar.html">Cotizar</a>
+=======
 								<a class="nav-link font-white nav-what-we-do" href="cotizar.html">Cotizar</a>
+>>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
 							</li>
 							<li class="nav-item">
 								<a class="nav-link font-white nav-what-we-do" href="tel:+541152383555">54.11.5238.3555</a>

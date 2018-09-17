@@ -64,6 +64,21 @@
 		    	$('#video-resp-index').removeClass("video-responsive");
 		    	$('#iframe').html('<iframe src="https://player.vimeo.com/video/285179154?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 		    }
+		    if ($(window).width() < 992) {
+		    	$('#nav-bar').addClass('black-back');
+		    	$('#nav-bar').removeClass('transparente');
+		    	$('#nav-2').removeClass('mx-md-auto');
+		    	$('#nav-2').removeClass('row');
+		    	$('#nav-2').removeClass('justify-content-center');
+		    }
+		    else{
+		    	$('#nav-bar').removeClass('black-back');
+		    	$('#nav-bar').addClass('transparente');
+		    	$('#nav-2').addClass('mx-md-auto');
+		    	$('#nav-2').addClass('row');
+		    	$('#nav-2').addClass('justify-content-center');
+		    }
+
 		}
 		$(document).ready( function() {
     		$(window).resize(resize);
@@ -73,9 +88,15 @@
   </head>
   <body>
 	<header>
+<<<<<<< HEAD
+		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente" id="nav-bar">
+			<div id="nav-1" class="container">
+				<div id="nav-2" class="row justify-content-center mx-md-auto">
+=======
 		<nav class="navbar navscroll fixed-top navbar-expand-lg navbar-light bg-light transparente">
 			<div class="container text-nowrap flex-row mx-md-auto order-1 order-md-2">
 				<div class="row justify-content-center text-nowrap flex-row mx-md-auto order-1 order-md-2">
+>>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
 					<a class="navbar-brand" href="index.html"><img id="logo" src="img/Logos/logo-pop.png"/></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -88,9 +109,9 @@
 							<li class="nav-item dropdown">					
 								<a class="nav-link font-white dropdown-toggle nav-what-we-do" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Qué hacemos?</a>
 								<div class="dropdown-menu black-drop" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="#" target="_blank">Contenidos Audiovisuales</a>
-									<a class="dropdown-item" href="#" target="_blank">Cartelería Digital + Turnos</a>
-									<a class="dropdown-item" href="#" target="_blank">Marketing Digital</a>
+									<a class="dropdown-item" target="_blank" href="contenidos-audiovisuales.html">Contenidos Audiovisuales</a>
+									<a class="dropdown-item" target="_blank" href="carteleria-digital.html">Cartelería Digital + Turnos</a>
+									<a class="dropdown-item" target="_blank" href="marketing-digital.html">Marketing Digital</a>
 								</div>
 							</li>
 							<li class="nav-item">
@@ -131,6 +152,7 @@
 			</div>
 		</div>
 		<br>	
+		<br>
         <h1><div id="slogan">SOMOS POPCORNTV</div></h1>
 		<h2>Transformamos ideas en movimiento</h2>
 		<h2>
@@ -306,7 +328,11 @@
 				<div class="col-lg-3 col-md-1 col-sm-1"></div>
 				<div class="col-lg-3 col-md-5 col-sm-5 create-content "><span class="creamos countered-2500">CREAMOS</span> <br><div class="countered countered-2500">+ <span class="counter">2500</span></div></div>
 				<div class="col-lg-3 col-md-5 col-sm-5 content-block "><br><span class="contenidos-creamos-1">Contenidos para empresas</span><span class="contenidos-creamos-2"> <br>de Argentina y el mundo.</span></div>
+<<<<<<< HEAD
+				<div class="col-lg-2 col-md-1 col-sm-1"></div>
+=======
 				<div class="col-lg-3 col-md-1 col-sm-1"></div>
+>>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
 			</div>				
 		</div>
 	</section>

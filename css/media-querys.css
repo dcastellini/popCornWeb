@@ -76,7 +76,7 @@ custom.css and it will override the style in this file.
 
     .navbar-nav > li > a.sf-with-ul:hover { border-bottom: none }
 
-    .navbar-nav li a { padding: 4px 0 }
+    .navbar-nav li a { padding: 4px 10px }
 
     .navbar-nav ul { background: none !important; height: auto !important; display: block !important; margin-left: 20px; margin-top: 0; margin-bottom: 12px; position: relative; top: 0; -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); transform: translate(0, 0); left: 0; border-top: none; }
 

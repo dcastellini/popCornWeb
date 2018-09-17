@@ -860,6 +860,7 @@ div.minions-prebox {
 .dropdown-item:focus,
 .dropdown-item:active {
     background-color:black !important;
+    color:white !important;
 }
 
     
@@ -1138,4 +1139,37 @@ footer .row{
     border:1px solid black;
     color:#ffff !important;
 }
+<<<<<<< HEAD
+.owl-prev i, .owl-next i {
+    transform : scale(1,6); 
+    color: #ffff;font-size:30pt;
+}
+
+.fw-row,.contenidos-row{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+
+.black-back{
+    background-color:black !important;
+    color:white !important;
+}
+
+.navbar-light,.navbar-toggler {
+    border-color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color:#96D2EA;
+}
+
+a .dropdrownitem {
+    padding-left:10px;
+}
+=======
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ffff;font-size:30pt;}
+>>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
