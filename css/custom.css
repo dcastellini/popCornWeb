@@ -52,8 +52,15 @@ a:hover, a:visited, a:link, a:active
 
 .blue-title{
 	font-size:22pt;
-	font-weight:bold;
+	font-weight:bolder;
+    letter-spacing: 2px;
+}
 
+.blue-sub{
+    font-size:22pt;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 
 .blue-text{
@@ -62,9 +69,13 @@ a:hover, a:visited, a:link, a:active
 }
 
 .blue-box{
-	border:1px solid white;
+	border:2px solid white;
 	font-size:22pt;
 	text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:60px;
+    padding-right:60px;
 }
 
 #slogan {
@@ -94,6 +105,7 @@ a:hover, a:visited, a:link, a:active
 
 .contact-me{
 	background-color:#3EB18A !important;
+    font-size:20pt !important;
 }
 
 .we-do{
@@ -122,7 +134,10 @@ a:hover, a:visited, a:link, a:active
     font-weight: bold;
 	font-size:22pt;
 	border:3px solid #018EDE;
-	padding:40px;
+	padding-top:20px;
+    padding-bottom:20px;
+    padding-left:80px;
+    padding-right:80px;
     margin: 5px;
     background-color: #ffffff;
     filter: alpha(opacity=60); /* For IE8 and earlier */
@@ -132,7 +147,10 @@ a:hover, a:visited, a:link, a:active
 
 div.minions-prebox {
 	border:1px solid transparent;
-	padding:30px;
+	padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
 	background-color:#F9F9FB;
 	margin-top:22%;
 	margin-right:auto;
@@ -373,6 +391,7 @@ div.minions-prebox {
 	margin-left:auto !important;
 	margin-right:auto !important;
 	text-align:center;
+    line-height:19px;
 }
 
 .footer-custom {
@@ -386,14 +405,15 @@ div.minions-prebox {
 }
 
 .foot-col {
-	border:2px solid #fff;
+	border:3px solid #fff;
 	margin-left:auto !important;
 	margin-right:auto !important;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:5px;
+	padding-bottom:5px;
 	padding-left:100px;
 	padding-right:100px;
 	font-size:22pt;
+    font-weight: bold;
 }
 
 
@@ -422,6 +442,18 @@ div.minions-prebox {
 	background-size:  cover;
 	background-repeat: no-repeat;
 	
+}
+
+.foot {
+    text-align:center;
+    font-size:20pt;
+
+}
+
+.foot-city {
+    text-align: justify;
+    font-size:20pt;
+    text-align-last: center;
 }
 
 .divider-space {
@@ -1170,6 +1202,24 @@ footer .row{
 a .dropdrownitem {
     padding-left:10px;
 }
-=======
+
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ffff;font-size:30pt;}
->>>>>>> eaf116b33686c5263f910fdba692e796ff2aeaec
+
+.trans {
+    letter-spacing: 4px;
+}
+
+.plus {
+    color:#7A7A7A;
+    font-weight: bold;
+    font-size: 30pt;
+}
+.ten-years{
+    color:#7A7A7A;
+    font-size:30pt;
+}
+
+.clients {
+    color:#7A7A7A;
+    font-size:18pt;
+}
