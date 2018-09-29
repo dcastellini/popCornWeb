@@ -101,6 +101,10 @@ a:hover, a:visited, a:link, a:active
     font-family: Helvetica;
 }
 
+.contact-me-2{
+    background-color:#3EB18A !important;
+}
+
 
 .contact-me{
 	background-color:#3EB18A !important;
@@ -111,7 +115,7 @@ a:hover, a:visited, a:link, a:active
 	background-color:#018FD7 !important;
 }
 
-.we-do,.contact-me {
+.we-do,.contact-me, .contact-me-2 {
 	color:white !important;
 	border-width:0px !important;
 	border-radius:0px !important;
@@ -122,7 +126,9 @@ a:hover, a:visited, a:link, a:active
     background-color:#057ab5 !important;
 }
 
-.contact-me:hover,.contact-me:focus,.contact-me:active {
+.contact-me:hover,.contact-me:focus,.contact-me:active,
+.contact-me-2:hover,.contact-me-2:focus,.contact-me-2:active
+ {
 	background-color:#349170 !important;
 	text-decoration:none !important;
 }
@@ -361,7 +367,7 @@ div.minions-prebox {
 	color:#FFFFFF;
 	margin-left:auto !important;
 	margin-right:auto !important;
-
+    text-align: center;
 
 }
 
@@ -827,10 +833,11 @@ div.minions-prebox {
 }
 
 .countered {
-    font-size:40pt;
-    font-family:HelveticaBold;
+    font-size:45pt;
+    font-family:Helvetica;
     letter-spacing:7pt;
     line-height: 0.7 !important;
+    font-weight:bolder;
 }
 
 .contenidos-creamos-1{
@@ -844,6 +851,7 @@ div.minions-prebox {
     font-family: HelveticaNeuel;
     line-height: 1.2 !important;
      font-weight: bold;
+
 }
 
 .algunos {
@@ -898,19 +906,30 @@ div.minions-prebox {
 #slogan-audiovisual{
     border:3px solid #ffff;
     display:inline-block;
-    padding:20px;
+    padding:60px;
+    font-size:30pt;
 
 }
 
 .check-we-do {
-    border:1px solid #A9A9A9;
-    color:#C1C1C1;
+    border:1px solid black;
+    color:#9E9E9E;
     text-align:center;
     font-size:25pt;
+    font-weight:bold;
+    display:inline;
+    margin-left:14%;
+    padding:10px;
+    width:100%;
+    letter-spacing: 2px;
 }
 
+
 .videos-genre {
-    font-size:10pt;
+    font-size:12pt;
+    font-family: HelveticaNeuel;
+    text-align: center;
+    color:#9E9E9E;
     
 }
 
