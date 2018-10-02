@@ -23,10 +23,12 @@
     <!-- Javascript -->
     <script src="js/jquery-3.2.11.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/index-resize.js"></script>
 	<script src="js/pixel.js"></script>
+	<script src="js/animate.js"></script>
   </head>
   <body>
 	<header>
@@ -111,9 +113,9 @@
 		</a>
 	</section>
 	<br>
-	<div class="container" id="Nosotros">
-		<div class="owl-carousel">
-			<div class="carrousel-logo">
+	<div class="container fadeInUp element-animate" id="Nosotros">
+		<div class="owl-carousel fadeInUp element-animate">
+			<div class="carrousel-logo fadeInUp ">
 				<img src="img/Slider/Home/Clientes/logo-telecom.jpg" class="img-logo" alt="Telecom" title="Telecom"/>
 			</div>
 			<div class="carrousel-logo">
@@ -148,8 +150,8 @@
 				<br>
 				<br>
 				<div class="row justify-content-center">
-					<div class="blue-text">
-					<span class="blue-title">/ La Agencia.</span><span class="blue-sub"> Fábrica de ideas</span><br>
+					<div class="blue-text fadeInUp">
+					<span class="blue-title fadeInUp">/ La Agencia.</span><span class="blue-sub"> Fábrica de ideas</span><br>
 					Más de 10 años de experiencia en el sector. Más de 500 trabajos realizados. Más trabajo en equipo. <br>
 					Más clientes conformes. Más clientes/amigos creados. Más ganas de trabajar. Más diseños creativos. <br>
 					Más rodajes interminables. Más horas de brainstorming. Más contenidos creativos. Más virales. Más asados.</div>
@@ -446,7 +448,10 @@
 			</div>
 		</div>
     </footer>
+
     <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carrousel.js"></script>
 	<script src="js/scroll.js"></script>
