@@ -2,10 +2,15 @@
 <html lang="es">
   <head>
     <title>Popcorntv - Fábrica de Ideas</title>
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta name="google-site-verification" content="_87WPaH6TvnFGDwHdwHoAwCmkwo1GzX6ysXQYJbQWDY" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/png" href="img/Favicon/favicon.png"/>
+    <meta name=”description” content="Popcorntv, transformamos ideas en movimiento." />
+    <meta name="robots" content="Index, Follow"/>
+    <meta name="keywords" content="Video institucional,Videos Institucionales,Video de producto,Video capacitacion,Carteleria Digital,Videomarketing,video marketing,redes sociales videos,digital signage,turnos online,turnos con carteleria,videos para fin de año,videos para capacitar,capacitacion,multimedia,diseño y animacion,videos animados,motion graphics,animacion personajes,publicidad animada,publicidad digital,animacion digital,musuxmedia,popcorntv producciones,popcorntv,distrito audiovisual,creatividad,guiones,diseño audiovisual,diseño multimedial,marketing digital,demian linetzky,fabio passoni,centralab,centro medico integral fitz roy,sanatorio san jose,sanatorio juncal,diagnostico tesla,consulmed,laboratorio rapela,samsung,agencia digital,agency,comunicacion digital administrada,presupuesto audiovisual"/>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/player.css">
@@ -15,49 +20,13 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/front-end-grid.css">
     <link rel="stylesheet" href="css/media-querys.css">
+    <!-- Javascript -->
     <script src="js/jquery-3.2.11.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-    <script>
-	    function resize() {
-		    if ($(window).width() < 770) {
-		    	$('#video-resp-index').addClass("video-responsive");
-		    	$('#iframe').html("");
-		    }
-		    else{
-		    	$('#video-resp-index').removeClass("video-responsive");
-		    	$('#iframe').html('<iframe src="https://player.vimeo.com/video/285179154?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
-		    }
-		    if ($(window).width() < 992) {
-		    	$('#nav-bar').addClass('black-back');
-		    	$('#nav-bar').removeClass('transparente');
-		    	$('#nav-2').removeClass('mx-md-auto');
-		    	$('#nav-2').removeClass('row');
-		    	$('#nav-2').removeClass('justify-content-center');
-		    }
-		    else{
-		    	$('#nav-bar').removeClass('black-back');
-		    	$('#nav-bar').addClass('transparente');
-		    	$('#nav-2').addClass('mx-md-auto');
-		    	$('#nav-2').addClass('row');
-		    	$('#nav-2').addClass('justify-content-center');
-		    }
-
-		}
-		$(document).ready( function() {
-    		$(window).resize(resize);
-   			resize();
-		});
-  	</script>
-  	<!-- Código de instalación Cliengo para www.popcorntv.com.ar --> 
-  	<script type="text/javascript">
-  		(function () { 
-  			var ldk = document.createElement('script'); 
-  			ldk.type = 'text/javascript'; 
-  			ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/582f697be4b0775d79c66901/582f697de4b0775d79c66905.js'; 
-  			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();
-  	</script>
+	<script src="js/index-resize.js"></script>
+	<script src="js/pixel.js"></script>
   </head>
   <body>
 	<header>

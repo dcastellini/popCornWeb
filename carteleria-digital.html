@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Popcorntv</title>
+    <title>Popcorntv - Cartelería Digital</title>
+    <!-- Meta -->
     <meta charset="utf-8">
+    <meta name="google-site-verification" content="_87WPaH6TvnFGDwHdwHoAwCmkwo1GzX6ysXQYJbQWDY" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/png" href="img/Favicon/favicon.png"/>
+    <meta name=”description” content="Popcorntv, transformamos ideas en movimiento." />
+    <meta name="robots" content="Index, Follow"/>
+    <meta name="keywords" content="Video institucional,Videos Institucionales,Video de producto,Video capacitacion,Carteleria Digital,Videomarketing,video marketing,redes sociales videos,digital signage,turnos online,turnos con carteleria,videos para fin de año,videos para capacitar,capacitacion,multimedia,diseño y animacion,videos animados,motion graphics,animacion personajes,publicidad animada,publicidad digital,animacion digital,musuxmedia,popcorntv producciones,popcorntv,distrito audiovisual,creatividad,guiones,diseño audiovisual,diseño multimedial,marketing digital,demian linetzky,fabio passoni,centralab,centro medico integral fitz roy,sanatorio san jose,sanatorio juncal,diagnostico tesla,consulmed,laboratorio rapela,samsung,agencia digital,agency,comunicacion digital administrada,presupuesto audiovisual"/>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/player.css">
@@ -17,50 +23,13 @@
     <link rel="stylesheet" href="css/front-end-grid.css">
     <link rel="stylesheet" href="css/media-querys.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Javascript -->
     <script src="js/jquery-3.2.11.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
-    <script>
-	    function resize() {
- 			if ($(window).width() < 630) {
-				$("#musux-image").attr("src","img/Logos/logo-musux-xs.png");
-		    }
-		    else{
-		    	if($(window).width() > 630){
-		    		$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
-		    	}
-		    	else{
-		    		$("#musux-image").attr("src","img/Logos/logo-musux.png");
-		    	}
-		    }
-		    if ($(window).width() < 770) {
-		    	$('#video-resp-index').addClass("video-responsive-musux");
-		    }
-		    else{
-		    	$('#video-resp-index').removeClass("video-responsive-musux");
-		    }
-		    if ($(window).width() < 992) {
-		    	$('#nav-bar').addClass('black-back');
-		    	$('#nav-bar').removeClass('transparente');
-		    	$('#nav-2').removeClass('mx-md-auto');
-		    	$('#nav-2').removeClass('row');
-		    	$('#nav-2').removeClass('justify-content-center');
-		    }
-		    else{
-		    	$('#nav-bar').removeClass('black-back');
-		    	$('#nav-bar').addClass('transparente');
-		    	$('#nav-2').addClass('mx-md-auto');
-		    	$('#nav-2').addClass('row');
-		    	$('#nav-2').addClass('justify-content-center');
-		    }
-
-		}
-		$(document).ready( function() {
-    		$(window).resize(resize);
-   			resize();
-		});
-   </script>
+    <script src="js/resize-musux.js"></script>
+    <script src="js/pixel.js"></script>
    </head>
    <body class="onsite">
 	<header>
