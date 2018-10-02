@@ -1242,29 +1242,8 @@ a .dropdrownitem {
     font-size:18pt;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    visibility: hidden;
-    transform: translate3d(0, 40px, 0);
-  }
-
-  to {
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-  }
-}
 
 
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
-.element-animate {
-  opacity: 0;
-  visibility: hidden;
-}
 
 #loader {
   position: fixed;
