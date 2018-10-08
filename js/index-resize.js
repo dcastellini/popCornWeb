@@ -13,6 +13,9 @@
 		    	$('#nav-2').removeClass('mx-md-auto');
 		    	$('#nav-2').removeClass('row');
 		    	$('#nav-2').removeClass('justify-content-center');
+		    	$("#dot-line img:last-child").remove();
+
+
 		    }
 		    else{
 		    	$('#nav-bar').removeClass('black-back');
@@ -20,6 +23,9 @@
 		    	$('#nav-2').addClass('mx-md-auto');
 		    	$('#nav-2').addClass('row');
 		    	$('#nav-2').addClass('justify-content-center');
+		    	if($("#dot-line img:last-child").length === 0){
+		    		$('#dot-line').append('<img src="img/Home/linea.png" alt="lineas" />');
+		    	}
 		    }
 
 		}

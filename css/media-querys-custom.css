@@ -143,6 +143,10 @@
     .countered {
         line-height: 0.5 !important;
     }
+
+    .ten-years {
+            font-size:25pt;
+    }
 }
 
 @media (max-width: 1131px) {
