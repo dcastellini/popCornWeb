@@ -17,6 +17,9 @@
         background-image: url("../img/Fondos/Minions/minions-768.jpg");
         background-position:center;
     }
+    #scroll-to-content {
+        left: 42%;
+    }
 
 }
 
@@ -28,6 +31,9 @@
         background-image: url("../img/Fondos/Minions/minions-992.jpg");
         background-position:center;
     }
+    #scroll-to-content {
+        left: 46.7%;
+    }
 
 }
 
@@ -37,6 +43,12 @@
         background-size: cover;
         background-image: url("../img/Fondos/Minions/minions-1200.jpg");
         background-position:center;
+    }
+    #scroll-to-content {
+        left: 47.2%;
+    }
+    .check-we-do {
+        font-size:20pt;
     }
 
 }

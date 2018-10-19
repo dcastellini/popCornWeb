@@ -1108,7 +1108,7 @@ nav{
 #scroll-to-content {
     display: block;
     position: absolute;
-    left: 50%;
+    left: 48.2%;
     bottom: 20px;
     z-index: 150;
     cursor: pointer;
@@ -1116,7 +1116,7 @@ nav{
     height: 24px;
     width: 69px;
     overflow: hidden;
-    margin: 0 0 0 -27.5px;
+    margin: 0 0 0 0px;
     opacity: 0.5;
     -webkit-animation: pulsate 1.5s ease-out infinite;
     -o-animation: pulsate 1.5s ease-out infinite;
@@ -1353,4 +1353,41 @@ a .dropdrownitem {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.color-white {
+    color:white;
+}
+
+.color-white:hover,.color-white:focus,
+.color-white:active {
+    color:white;
+}
+
+.spacing-null {
+    letter-spacing: 0 !important;
+}
+
+.btn-content-audio {
+    letter-spacing: 3px !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+    font-weight:500 !important;
+}
+
+.underlined {
+    text-decoration:underline !important; 
+}
+
+.check-we-do-filter {
+    color:black;
+    text-align:center;
+    font-size:15pt;
+    font-weight:bold;
+    display:block;
+    padding:10px;
+    width:100%;
+    letter-spacing: 2px;
 }
