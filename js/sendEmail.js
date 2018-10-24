@@ -200,6 +200,7 @@ function envioEmail(){
                 cache: false,
                 success: function (response){
                     if(response){
+                    	$('#myModalLabel').html("¡Genial!")
                         $('#ErrorModalTexto').html('¡Tu mensaje fue enviado! Te responderemos a la brevedad.');
 						$('#ErrorModal').modal('show');	
                     }

@@ -54,6 +54,7 @@ a:hover, a:visited, a:link, a:active
 	font-size:22pt;
 	font-weight:bolder;
     letter-spacing: 2px;
+    font-family:HelveticaNeuel;
 }
 
 .blue-sub{
@@ -61,10 +62,13 @@ a:hover, a:visited, a:link, a:active
     font-weight:normal;
     letter-spacing: 2px;
     font-style: italic;
+    font-family:Arial;
 }
 
 .blue-text{
-	font-size:13pt;;
+	font-size:13pt;
+    font-weight:normal;
+    font-family:Arial;
 }
 
 .blue-box{
@@ -948,7 +952,7 @@ div.minions-prebox {
     color:#ffff;
     font-family:HelveticaNeuel;
     font-size:13pt;
-
+    font-weight:normal;
 }
 
 nav{
@@ -1244,6 +1248,7 @@ a .dropdrownitem {
 .clients {
     color:#7A7A7A;
     font-size:18pt;
+    line-height: 1.5;
 }
 
 
