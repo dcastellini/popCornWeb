@@ -914,8 +914,11 @@ div.minions-prebox {
 #slogan-audiovisual{
     border:3px solid #ffff;
     display:inline-block;
-    padding:60px;
-    font-size:30pt;
+    padding-bottom:30px;
+    padding-top:30px;
+    padding-left:60px;
+    padding-right:60px;
+    font-size:25pt;
 
 }
 
@@ -1379,9 +1382,12 @@ a .dropdrownitem {
     letter-spacing: 3px !important;
     padding-left:10px !important;
     padding-right: 10px !important;
-    padding-top:2px !important;
-    padding-bottom:2px !important;
+    padding-top:1px !important;
+    padding-bottom:1px !important;
     font-weight:500 !important;
+    font-size:18pt !important;
+    background-color: #3EB18A !important;
+    line-height: 0 !important;
 }
 
 .underlined {
@@ -1406,3 +1412,13 @@ a .dropdrownitem {
 .navbar-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
 } 
+
+.intro-custom {
+    padding-top:30px !important;
+}
+
+.video-content-audio {
+    background-image: url('../img/art.jpg'); 
+    background-position:0px -70px !important;
+    height:840px !important;
+}
