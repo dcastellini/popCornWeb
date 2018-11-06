@@ -102,11 +102,15 @@ a:hover, a:visited, a:link, a:active
     width:auto !important;
     padding:auto !important;
     margin:auto !important;
-    font-size:35pt !important;
+    font-size:40pt !important;
     display:inline;
     border:3px solid #ffff;
     padding:10px;
     font-family: Helvetica;
+}
+
+.musux-image {
+
 }
 
 .contact-me-2{
@@ -1110,7 +1114,8 @@ nav{
 .sistema-carteleria{
     font-family: Helvetica;
     font-weight: lighter;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
+    font-size:20pt;
 }
 
 .conocer{
@@ -1210,8 +1215,8 @@ footer .row{
 }
 
 .owl-prev i, .owl-next i {
-    transform : scale(1,6); 
-    color: #ffff;font-size:30pt;
+    transform : scale(1,1); 
+    color: #ffff;font-size:60pt;
 }
 
 .fw-row,.contenidos-row{
