@@ -967,6 +967,10 @@ nav{
     font-size:15pt;
 }
 
+.white {
+    color:#ffff !important;
+}
+
 .margin-top {
     margin-top:15px;
 }

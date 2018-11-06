@@ -139,24 +139,6 @@ function envioEmail(){
 									flag    = 1;
 									mensaje = "El e-mail ingresado no es válido.";		
 								}
-								else
-								{
-
-										if(NotAssigned(realiza))
-										{
-											flag    = 1;
-										    mensaje = "Debe seleccionar lo que desea realizar.";
-										}
-										else
-										{
-											if(NotAssigned(dirige))
-											{
-												flag 	= 1;
-												mensaje = "Debe seleccionar a quien va dirigido.";
-											}
-										}
-								    
-								}
 							}
 						}
 					}

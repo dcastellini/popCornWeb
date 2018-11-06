@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/png" href="img/Favicon/favicon.png"/>
-    <meta name="google-site-verification" content="_87WPaH6TvnFGDwHdwHoAwCmkwo1GzX6ysXQYJbQWDY" />
+    <meta name="google-site-verification" content="6UlKJayQeOpmy5Ts1xHXZNhpHdhfYGBnEa7AU4sjauw" />
     <meta name="description" content="Popcorntv: agencia de comunicación 360. Fabricamos ideas, producimos contenidos digitales y audiovisuales para tu empresa." />
     <meta name="robots" content="Index, Follow"/>
     <meta name="keywords" content="Video institucional,Videos Institucionales,Video de producto,Video capacitacion,Carteleria Digital,Videomarketing,video marketing,redes sociales videos,digital signage,turnos online,turnos con carteleria,videos para fin de año,videos para capacitar,capacitacion,multimedia,diseño y animacion,videos animados,motion graphics,animacion personajes,publicidad animada,publicidad digital,animacion digital,musuxmedia,popcorntv producciones,popcorntv,distrito audiovisual,creatividad,guiones,diseño audiovisual,diseño multimedial,marketing digital,demian linetzky,fabio passoni,centralab,centro medico integral fitz roy,sanatorio san jose,sanatorio juncal,diagnostico tesla,consulmed,laboratorio rapela,samsung,agencia digital,agency,comunicacion digital administrada,presupuesto audiovisual"/>
@@ -183,32 +183,72 @@
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10 footer-white center-text">
-						© 2018 Popcorntv Producciones Audiovisuales ® - Términos y Condiciones. Política de Privacidad - 54.11.5238.3555
+						© 2018 Popcorntv Producciones Audiovisuales ® - <a class="white" href="#" onclick="Terms()">Términos y Condiciones.</a> Política de Privacidad
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
 			</div>
 		</footer>
+		<div class='modal fade bd-example-modal-lg' id='Modal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+			<br>
+			<br>
+			<br>
+			<div class='modal-dialog modal-lg' role='document'>
+				<div class='modal-content'>
+					<div class='modal-header'>
+						<h4 class='modal-title' id='Modal-Label'></h4>
+						<button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+					</div>
+					<div class='modal-body' id='Modal-Texto'>
+					</div>
+					<div class='modal-footer'>
+						 <button type='button' class='btn btn-primary' data-dismiss='modal'>Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- loader -->
+
+		<!-- Script -->
 		<script src="js/scroll.js"></script>
+		<script src="js/terminos-condiciones.js"></script>
 		<!-- Facebook Pixel Code -->
 		<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window,document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '670724253299068');
-		fbq('track', 'PageView');
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window,document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '670724253299068');
+			fbq('track', 'PageView');
 		</script>
 		<noscript>
-		<img height="1" width="1"
-		src="https://www.facebook.com/tr?id=670724253299068&ev=PageView
-		&noscript=1"/>
+			<img height="1" width="1"
+			src="https://www.facebook.com/tr?id=670724253299068&ev=PageView
+			&noscript=1"/>
 		</noscript>
 		<!-- End Facebook Pixel Code -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41301385-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-41301385-1');
+		</script>
+		<!-- Hotjar Tracking Code for https://www.popcorntv.com.ar -->
+		<script>
+    		(function(h,o,t,j,a,r){
+        		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        		h._hjSettings={hjid:1079336,hjsv:6};
+        		a=o.getElementsByTagName('head')[0];
+        		r=o.createElement('script');r.async=1;
+        		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        		a.appendChild(r);
+    		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
 	</body>
 </html>
