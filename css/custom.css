@@ -109,9 +109,6 @@ a:hover, a:visited, a:link, a:active
     font-family: Helvetica;
 }
 
-.musux-image {
-
-}
 
 .contact-me-2{
     background-color:#3EB18A !important;
@@ -1109,6 +1106,8 @@ nav{
     font-size:12pt;
     font-family: Helvetica;
     letter-spacing: 2px;
+    padding-left:35px;
+    padding-right:35px;
 }
 
 .sistema-carteleria{
@@ -1120,12 +1119,15 @@ nav{
 
 .conocer{
     font-family: Helvetica;
+    font-size:18pt !important;
 }
 
 .more{  
     font-family: Helvetica;
     font-weight: bold;
 }
+
+
 
 #scroll-to-content {
     display: block;
@@ -1245,7 +1247,11 @@ a .dropdrownitem {
     padding-left:10px;
 }
 
-.owl-prev i, .owl-next i {transform : scale(1,6); color: #ffff;font-size:30pt;}
+.owl-prev i, .owl-next i {
+    transform : scale(1,1); 
+    color: #ffff;
+    font-size:60pt;
+}
 
 .trans {
     letter-spacing: 4px;
