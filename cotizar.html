@@ -27,6 +27,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/pixel.js"></script>
 	<script src="js/resize-default.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
 		<div class='modal fade' id='ErrorModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
@@ -217,9 +218,13 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-8"><div class="g-recaptcha" data-sitekey="6Le_fXYUAAAAAJ8hK58frvqfRg3_y7ChS77lUYWb"></div>
-						</div><br>
-							<div class="col-lg-4"><button class="btn btn-default btn-contact" onclick="envioEmail()">Enviar</button></div>
+							<div class="col-lg-12">
+								<div class="g-recaptcha" data-sitekey="6Le_fXYUAAAAAJ8hK58frvqfRg3_y7ChS77lUYWb"></div>
+							</div>
+						<br><br><br><br>
+							<div class="col-lg-12">
+								<button class="btn btn-default btn-contact" onclick="envioEmail()">Enviar</button>
+							</div>
 						</div>
 					</div>
 					<div class="col-lg-4">							
