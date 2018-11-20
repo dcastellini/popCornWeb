@@ -1,11 +1,17 @@
 	    function resize() {
 		   	if ($(window).width() < 600) {
 		   		$('#link-arrow').remove();
+		   		$('#slogan').html("Somos Popcorntv");
+		   		$('#sumamos').html("");
+
 		   	}
 		   	else {
 		   		if($('#link-arrow').length === 0){
 		    		$('#arrow').append('<a href="#Nosotros" id="link-arrow"> <div id="scroll-to-content"></div> </a>');
+
 		    	}
+		    	$('#slogan').html("SOMOS POPCORNTV");
+		    	$('#sumamos').html("¿Sumamos Juntos?");
 		   	}
 		    if ($(window).width() < 770) {
 		    	$('#video-resp-index').addClass("video-responsive");

@@ -7691,7 +7691,6 @@ h2.ab_variant {
         margin-right: 0;
         margin-top: .9375rem;
         width: 100%;
-        max-width: 50vw;
     }
     .video_intro .intro_buttons.ab_control {
         -webkit-transform: translateY(-68%);
