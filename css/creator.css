@@ -7750,6 +7750,9 @@ h2.ab_variant {
     .video_intro.alternate h2 {
         display: none
     }
+    .video_intro.alternate #sln-av {
+        display:block;
+    }
 }
 
 @media screen and (max-width:37.5em) {
@@ -7792,6 +7795,9 @@ h2.ab_variant {
         line-height: 2.375rem;
         text-align: center;
         margin: 1.5625rem auto 0
+    }
+    .video_intro.alternate #sln-av {
+        width:auto;
     }
     .video_intro.alternate .intro_buttons {
         padding-top: 2.5rem

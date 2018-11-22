@@ -6,9 +6,46 @@
     .map-cover{
         height:600px;
     }
+    #slogan-audiovisual {
+        font-size:15pt;
+        border:2px solid white;
+        padding-bottom:10px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        margin-top:100px;
+    }
+    #cnt-ad {
+        font-size:12pt !important;
+    }
 
+    .check-we-do {
+        border:0px;
+        font-size:20pt;
+        margin-left:auto;
+    }
+    .video_intro {
+        background-color:white !important;
+    }
+    #cnt-au{
+        height:600px !important;
+        background-position: center !important;
+    }
+    #QueHacemos {
+        margin-top:0px;
+    }
+    .check-we-do-filter {
+        padding:10px;
+    }
+    .title-cliente-p {
+       padding-left:30px;
+       padding-right:30px;
+        border:0px;  
+    }
+    .trust {
+        line-height:1;
+    }
 }
-
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .minions-cover{
@@ -22,6 +59,35 @@
     }
     .map-cover{
         height:550px;
+    }
+    #slogan-audiovisual {
+        font-size:18pt;
+    }
+    #cnt-ad {
+        font-size:14pt !important;
+    }
+    .check-we-do {
+        border:0px;
+        font-size:20pt;
+        margin-left:auto;
+    }
+    .video_intro {
+        background-color:white !important;
+    }
+    #cnt-au{
+        height:600px !important;
+        background-position: center;
+    }
+    #QueHacemos {
+        margin-top:0px;
+    }
+    .check-we-do-filter {
+        padding:10px;
+    }
+    .title-cliente-p {
+       padding-left:40px;
+       padding-right:40px;
+       border:0px;  
     }
 }
 
