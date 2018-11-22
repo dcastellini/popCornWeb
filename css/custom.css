@@ -83,6 +83,7 @@ a:hover, a:visited, a:link, a:active
     padding-bottom:20px;
     padding-left:60px;
     padding-right:60px;
+    margin-top:30px;
 }
 
 #slogan {
@@ -180,6 +181,7 @@ div.minions-prebox {
 	position:absolute;
 	background-image: url("../img/we-do.jpg");
 	background-repeat: repeat;
+    padding-bottom:40px;
 	
 }
 
@@ -191,6 +193,7 @@ div.minions-prebox {
 	padding:20pt;
 	margin-right:auto;
 	margin-left:auto;
+    margin-top:20px;
 }
 
 .what-we-do-3 {
@@ -377,7 +380,9 @@ div.minions-prebox {
 	margin-left:auto !important;
 	margin-right:auto !important;
     text-align: center;
-
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:30px;
 }
 
 .create-content {
@@ -412,13 +417,12 @@ div.minions-prebox {
 }
 
 .footer-custom {
-	height:auto;
 	margin-left:auto !important;
 	margin-right:auto !important;
 	text-align:center;
 	color: #fff;
 	font-size:16pt;
-
+    padding-top:140px;
 }
 
 .foot-col {
@@ -460,6 +464,7 @@ div.minions-prebox {
 	background-size:  cover;
 	background-repeat: no-repeat;
     background-position: center;
+    height:489px;
 }
 
 .foot {
@@ -924,6 +929,7 @@ div.minions-prebox {
     padding-left:60px;
     padding-right:60px;
     font-size:25pt;
+    
 
 }
 
@@ -1441,4 +1447,17 @@ a .dropdrownitem {
     background-image: url('../img/art.jpg'); 
     background-position:0px -70px !important;
     height:840px !important;
+}
+
+#blue-container {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.divider-space {
+    padding-top:40px;
+}
+
+.social-networks {
+    padding-top:125px;
 }

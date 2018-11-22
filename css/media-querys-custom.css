@@ -3,6 +3,9 @@
     .minions-cover{
         height:0px;
     }
+    .map-cover{
+        height:600px;
+    }
 
 }
 
@@ -17,7 +20,9 @@
     .green-rectangle {
         font-size:15pt;
     }
-
+    .map-cover{
+        height:550px;
+    }
 }
 
 
@@ -30,6 +35,9 @@
     }
     .green-rectangle {
         font-size:15pt;
+    }
+    .map-cover{
+        height:520px;
     }
 
 }
@@ -46,6 +54,9 @@
     }
     .check-we-do {
         font-size:20pt;
+    }
+    .map-cover {
+        height:570px;
     }
 
 }
@@ -85,8 +96,14 @@
     .blue-box{
         border:0px;
     }
-    #blue-container br{
-        display:none;
+    .blue-section {
+        height:250px;
+    }
+    #blue-container {
+        padding-top:35px;
+    }
+    .content-block {
+        padding-top:0px;
     }
     .what-we-do-box .que { 
         font-size:20pt;
@@ -105,7 +122,15 @@
     .foot{
         text-align-last:center;
     }
-
+    .footer-custom {
+        padding-top:60px;
+    }
+    .social-networks {
+        padding-top:70px;
+    }
+    .map-cover {
+        height:560px;
+    }
 }
 
 
