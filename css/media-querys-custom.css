@@ -45,6 +45,59 @@
     .trust {
         line-height:1;
     }
+    .border-content {
+        border:0px;
+        padding:0px;
+    }
+    .content-for {
+        font-size:15pt;
+        letter-spacing:1px;
+
+    }
+    .content-mkt {
+        font-size:15pt;
+        letter-spacing:1px;
+    }
+    .stones-strategy {
+        font-size:15pt;
+    }
+    .stones-green {
+        font-size:15pt;
+    }
+    .green-rectangle {
+        padding-left:10px;
+        padding-right:10px;
+        letter-spacing: 8px;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+    .comunication {
+        font-size:20pt;
+    }
+    .candy-box {
+        border:0px;
+        font-size:20pt;
+        letter-spacing: 3px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+    .candy-border{
+        border:0px;
+        background-color:transparent;
+        margin-top:40px;
+        width:auto;
+    }
+    .candy-back{
+        height:400px;
+    }
+    .foot-candy {
+        margin-top:50px;
+    }
+    .social-candy img {
+        margin-top:5px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -88,6 +141,57 @@
        padding-left:40px;
        padding-right:40px;
        border:0px;  
+    }
+    .border-content {
+        border:0px;
+    }
+    .content-for {
+        font-size:15pt;
+        letter-spacing:1px;
+        padding:0px;
+    }
+    .content-mkt {
+        font-size:15pt;
+        letter-spacing:1px;
+    }
+      .stones-strategy {
+        font-size:15pt;
+    }
+    .stones-green {
+        font-size:15pt;
+    }
+    .green-rectangle {
+        padding-left:10px;
+        padding-right:10px;
+        letter-spacing: 8px;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+    .comunication {
+        font-size:20pt;
+    }
+    .candy-box {
+        border:0px;
+        font-size:20pt;
+        letter-spacing: 3px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+    .candy-border{
+        border:0px;
+        background-color:transparent;
+        margin-top:60px;
+    }
+    .candy-back{
+        height:436px;
+    }
+    .foot-candy {
+        margin-top:60px;
+    }
+    .social-candy img {
+        margin-top:5px;
     }
 }
 
