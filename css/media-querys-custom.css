@@ -92,6 +92,9 @@
     }
     #slogan{
         border:0px;
+        text-align: center;
+        padding-top:0px;
+        display:inline-block;
     }
     .blue-box{
         border:0px;
@@ -130,6 +133,17 @@
     }
     .map-cover {
         height:560px;
+    }
+    h1 #slogan {
+        margin-top:0px;
+    }
+    #idea {
+        display:inline !important;
+        font-size:10pt;
+    }
+    .trans {
+        letter-spacing: 1px !important;
+        font-weight: lighter;
     }
 }
 

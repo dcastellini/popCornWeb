@@ -88,14 +88,16 @@ a:hover, a:visited, a:link, a:active
 
 #slogan {
 	border:1px solid white;
-	width:auto !important;
-	padding:auto !important;
 	margin:auto !important;
 	font-size:35pt !important;
     display:inline;
     border:3px solid #ffff;
     padding:10px;
     font-family: Helvetica;
+}
+
+h1 #slogan {
+    margin-top:30px;
 }
 
 #slogan-musux {

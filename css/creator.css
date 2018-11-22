@@ -7606,6 +7606,7 @@ h2.ab_variant {
     .video_intro .player_container {
         display: none
     }
+
 }
 
 .video_intro h1 {
@@ -7823,7 +7824,7 @@ section cite {
 
 @media screen and (max-width:37.5em) {
     .video_intro.alternate .intro_buttons .iris_btn {
-        margin: 0 0 2.1875rem
+        margin: 0 0 5px;
     }
     section cite {
         right: 1.25rem

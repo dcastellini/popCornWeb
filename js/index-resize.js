@@ -1,7 +1,7 @@
 	    function resize() {
 		   	if ($(window).width() < 600) {
 		   		$('#link-arrow').remove();
-		   		$('#slogan').html("Somos Popcorntv");
+		   		$('#slogan').html("Somos<br>Popcorntv");
 		   		$('#sumamos').html("");
 
 		   	}
