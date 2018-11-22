@@ -1,18 +1,13 @@
 	    function resize() {
- 			if ($(window).width() < 630) {
-				$("#musux-image").attr("src","img/Logos/logo-musux-xs.png");
-		    }
-		    else{
-		    	if($(window).width() > 630){
-		    		$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
-		    	}
-
-		    }
 		    if ($(window).width() < 770) {
 		    	$('#video-resp-index').addClass("video-responsive-musux");
+		    	$('#slogan-musux').html('<img id="musux-image" src="img/Logos/logo-musux.png"/>');
+		    	$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
 		    }
 		    else{
 		    	$('#video-resp-index').removeClass("video-responsive-musux");
+		    	$('#slogan-musux').html('¿POR QUÉ <img id="musux-image" src="img/Logos/logo-musux.png"/>?');
+		    	$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
 		    }
 		    if ($(window).width() < 992) {
 		    	$('#nav-bar').addClass('black-back');
