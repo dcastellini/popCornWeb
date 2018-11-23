@@ -214,6 +214,9 @@
     .map-cover{
         height:520px;
     }
+    #plyr {
+        top:160px !important;
+    }
 
 }
 
@@ -232,6 +235,9 @@
     }
     .map-cover {
         height:570px;
+    }
+    #plyr {
+        top:180px !important;
     }
 
 }
@@ -268,7 +274,7 @@
     #slogan{
         border:0px;
         text-align: center;
-        padding-top:0px;
+        padding-top:50px;
         display:inline-block;
     }
     .blue-box{
@@ -316,9 +322,8 @@
         display:inline !important;
         font-size:10pt;
     }
-    .trans {
-        letter-spacing: 1px !important;
-        font-weight: lighter;
+    .video_intro.alternate h2{
+        display:none;
     }
 }
 

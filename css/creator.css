@@ -7747,13 +7747,12 @@ h2.ab_variant {
         line-height: 3rem;
         padding-top: 15rem
     }
-    .video_intro.alternate h2 {
-        display: none
-    }
+
     .video_intro.alternate #sln-av {
         display:block;
     }
 }
+
 
 @media screen and (max-width:37.5em) {
     .video_intro .intro_buttons .iris_btn:first-child {
