@@ -3,11 +3,13 @@
 		    	$('#video-resp-index').addClass("video-responsive-musux");
 		    	$('#slogan-musux').html('<img id="musux-image" src="img/Logos/logo-musux.png"/>');
 		    	$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
+		    	$('#iframe').html("");
 		    }
 		    else{
 		    	$('#video-resp-index').removeClass("video-responsive-musux");
 		    	$('#slogan-musux').html('¿POR QUÉ <img id="musux-image" src="img/Logos/logo-musux.png"/>?');
 		    	$("#musux-image").attr("src","img/Logos/logo-musux-chico.png");
+		    	$('#iframe').html('<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/283533673?autoplay=1&loop=1&autopause=0&background=1" width="100%" height="100%"  frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 		    }
 		    if ($(window).width() < 992) {
 		    	$('#nav-bar').addClass('black-back');

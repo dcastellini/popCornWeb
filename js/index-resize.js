@@ -2,6 +2,7 @@
 		   	if ($(window).width() < 768) {
 		   		$('#link-arrow').remove();
 		   		$('#slogan').html("Somos Popcorntv");
+		   		$('.trans').html("Transformamos <br> ideas en movimiento");
 
 		   	}
 		   	else {
@@ -9,6 +10,7 @@
 		    		$('#arrow').append('<a href="#Nosotros" id="link-arrow"> <div id="scroll-to-content"></div> </a>');
 		    	}
 		    	$('#slogan').html("SOMOS POPCORNTV");
+		    	$('.trans').html("Transformamos ideas en movimiento");
 		   	}
 		    if ($(window).width() < 770) {
 		    	$('#video-resp-index').addClass("video-responsive");
