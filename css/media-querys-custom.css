@@ -16,7 +16,7 @@
         padding-top:10px;
         padding-left:10px;
         padding-right:10px;
-        margin-top:100px;
+        margin-top:0px;
     }
     #cnt-ad {
         font-size:12pt !important;
@@ -31,8 +31,8 @@
         background-color:white !important;
     }
     #cnt-au{
-        height:600px !important;
-        background-position: center !important;
+        height:550px !important;
+        background-position:50% 90px !important;
     }
     #QueHacemos {
         margin-top:0px;
