@@ -3,6 +3,9 @@
     .minions-cover{
         height:0px;
     }
+    .clients{
+        line-height:25px;
+    }
     .map-cover{
         height:600px;
     }
@@ -107,6 +110,9 @@
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .minions-cover{
         height:0px;
+    }
+    .clients{
+        line-height:25px;
     }
     #scroll-to-content {
         left: 42%;
